@@ -1,0 +1,774 @@
+Disease,Prevalence,Prior_Weight,Typical_Min_Duration_Days,Typical_Max_Duration_Days,Duration_Category,Onset_Type,Progression_Type,Urgency_Level,Typical_Min_Age,Typical_Max_Age,Primary_Age_Group,Gender_Predisposition,Primary_Organ_System,Secondary_Organ_System,Typical_Severity_Level,Case_Fatality_Risk,Hospitalization_Likelihood,Chronicity_Type
+abdominal aortic aneurysm,Rare,0.35,365,7300,Chronic,Insidious,Progressive,Emergency,55,90,Elderly,Slightly Male,Cardiovascular,Multisystem,Severe,High,Almost Always,Chronic Progressive
+abdominal hernia,Common,0.75,30,10950,Chronic,Gradual,Progressive,Moderate,0,90,All Ages,Slightly Male,Gastrointestinal,Musculoskeletal,Moderate,Low,Sometimes,Chronic
+abscess of nose,Common,0.75,3,10,Acute,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,ENT,Dermatological,Mild to Moderate,Very Low,Rare,Acute
+abscess of the lung,Rare,0.35,14,42,Chronic,Gradual,Progressive,High,20,80,Middle Aged,Slightly Male,Respiratory,Infectious Disease,Moderate to Severe,Moderate,Often,Subacute
+abscess of the pharynx,Rare,0.35,2,7,Acute,Sudden,Progressive,Emergency,2,50,Child,Both,ENT,Infectious Disease,Moderate to Severe,Low,Often,Acute
+acanthosis nigricans,Common,0.75,365,10950,Chronic,Insidious,Chronic Stable,Low,10,70,Young Adult,Both,Dermatological,Endocrine,Mild,Very Low,Rare,Chronic
+acariasis,Common,0.75,7,21,Subacute,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Dermatological,Infectious Disease,Mild,Very Low,Rare,Acute Self-Limiting
+achalasia,Very Rare,0.15,180,7300,Chronic,Insidious,Progressive,Moderate,25,60,Middle Aged,Both,Gastrointestinal,Neurological,Moderate,Very Low,Sometimes,Chronic Progressive
+acne,Very Common,1,30,3650,Chronic,Gradual,Relapsing,Low,12,30,Adolescent,Both,Dermatological,Endocrine,Mild,Very Low,Rare,Chronic
+actinic keratosis,Very Common,1,365,7300,Chronic,Insidious,Progressive,Low,50,90,Elderly,Both,Dermatological,None,Mild,Very Low,Rare,Chronic
+acute bronchiolitis,Common,0.75,3,14,Subacute,Sudden,Self-limiting,High,0,2,Infant,Both,Respiratory,Infectious Disease,Moderate,Low,Often,Acute Self-Limiting
+acute bronchitis,Very Common,1,5,21,Subacute,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Respiratory,Infectious Disease,Mild to Moderate,Very Low,Rare,Acute Self-Limiting
+acute bronchospasm,Common,0.75,0,1,Very Acute,Sudden,Self-limiting,Emergency,0,90,All Ages,Both,Respiratory,None,Moderate,Low,Often,Acute
+acute fatty liver of pregnancy (aflp),Very Rare,0.15,1,14,Subacute,Sudden,Progressive,Emergency,18,45,Young Adult,Female,Gastrointestinal,Reproductive,Severe,High,Almost Always,Acute
+acute glaucoma,Rare,0.35,0,2,Very Acute,Sudden,Progressive,Emergency,40,90,Elderly,Slightly Female,Ophthalmological,None,Severe,Very Low,Often,Acute
+acute kidney injury,Common,0.75,1,14,Subacute,Sudden,Progressive,Emergency,0,90,All Ages,Both,Genitourinary,Multisystem,Severe,Moderate,Almost Always,Acute
+acute otitis media,Very Common,1,3,10,Acute,Sudden,Self-limiting,Moderate,0,12,Child,Both,ENT,Infectious Disease,Mild to Moderate,Very Low,Rare,Acute Self-Limiting
+acute pancreatitis,Common,0.75,2,14,Subacute,Sudden,Progressive,Emergency,20,70,Middle Aged,Slightly Male,Gastrointestinal,Endocrine,Moderate to Severe,Moderate,Almost Always,Acute
+acute respiratory distress syndrome (ards),Rare,0.35,1,21,Subacute,Sudden,Progressive,Emergency,0,90,All Ages,Both,Respiratory,Cardiovascular,Severe,High,Almost Always,Acute
+acute sinusitis,Very Common,1,7,28,Chronic,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,ENT,Respiratory,Mild to Moderate,Very Low,Rare,Acute Self-Limiting
+acute stress reaction,Common,0.75,1,3,Very Acute,Sudden,Self-limiting,Moderate,15,90,All Ages,Both,Psychiatric,None,Mild to Moderate,Very Low,Rare,Acute Self-Limiting
+adhesive capsulitis of the shoulder,Common,0.75,180,7300,Chronic,Gradual,Self-limiting,Moderate,40,70,Middle Aged,Slightly Female,Musculoskeletal,None,Moderate,Very Low,Rare,Chronic
+adjustment reaction,Common,0.75,14,180,Chronic,Sudden,Self-limiting,Moderate,5,90,All Ages,Both,Psychiatric,None,Mild to Moderate,Very Low,Rare,Subacute
+adrenal adenoma,Common,0.75,365,10950,Chronic,Insidious,Chronic Stable,Low,30,70,Middle Aged,Slightly Female,Endocrine,None,Mild to Moderate,Very Low,Sometimes,Chronic
+adrenal cancer,Very Rare,0.15,90,730,Chronic,Gradual,Progressive,High,0,80,All Ages,Both,Endocrine,None,Severe,High,Often,Chronic Progressive
+alcohol abuse,Very Common,1,365,14600,Chronic,Insidious,Progressive,Moderate,15,70,Young Adult,Male,Psychiatric,Multisystem,Moderate,Low,Sometimes,Chronic Progressive
+alcohol intoxication,Very Common,1,0,1,Very Acute,Sudden,Self-limiting,High,15,80,Young Adult,Male,Psychiatric,Neurological,Moderate,Low,Sometimes,Acute
+alcohol withdrawal,Common,0.75,1,7,Acute,Sudden,Self-limiting,Emergency,25,70,Middle Aged,Male,Neurological,Psychiatric,Moderate to Severe,Low,Often,Acute
+alcoholic liver disease,Common,0.75,365,10950,Chronic,Insidious,Progressive,High,30,70,Middle Aged,Male,Gastrointestinal,None,Moderate to Severe,Moderate,Often,Chronic Progressive
+allergy,Very Common,1,0,3,Very Acute,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Multisystem,Dermatological,Mild,Very Low,Rare,Acute Self-Limiting
+allergy to animals,Very Common,1,0,1,Very Acute,Sudden,Self-limiting,Low,0,90,All Ages,Both,Respiratory,Dermatological,Mild,Very Low,Rare,Chronic
+alopecia,Common,0.75,30,10950,Chronic,Gradual,Relapsing,Low,15,80,Young Adult,Both,Dermatological,Autoimmune,Mild,Very Low,Rare,Chronic
+alzheimer disease,Common,0.75,1825,7300,Chronic,Insidious,Progressive,Low,60,95,Elderly,Slightly Female,Neurological,Psychiatric,Severe,Low,Sometimes,Chronic Progressive
+amblyopia,Common,0.75,365,10950,Chronic,Insidious,Chronic Stable,Low,0,7,Child,Both,Ophthalmological,Neurological,Mild,Very Low,Rare,Chronic
+amyloidosis,Very Rare,0.15,365,3650,Chronic,Insidious,Progressive,High,50,90,Elderly,Both,Multisystem,Hematological,Severe,Moderate,Often,Chronic Progressive
+amyotrophic lateral sclerosis (als),Rare,0.35,730,3650,Chronic,Insidious,Progressive,High,40,80,Middle Aged,Slightly Male,Neurological,Musculoskeletal,Severe,High,Often,Chronic Progressive
+anal fissure,Common,0.75,7,42,Chronic,Sudden,Relapsing,Moderate,15,60,Young Adult,Both,Gastrointestinal,None,Mild to Moderate,Very Low,Rare,Acute
+anal fistula,Rare,0.35,30,10950,Chronic,Gradual,Progressive,Moderate,20,60,Young Adult,Male,Gastrointestinal,Infectious Disease,Moderate,Very Low,Sometimes,Chronic
+anemia,Very Common,1,30,10950,Chronic,Gradual,Progressive,Moderate,0,90,All Ages,Slightly Female,Hematological,Multisystem,Mild to Moderate,Low,Sometimes,Chronic
+anemia due to chronic kidney disease,Common,0.75,365,10950,Chronic,Insidious,Progressive,Moderate,20,90,Middle Aged,Both,Hematological,Genitourinary,Moderate,Low,Sometimes,Chronic Progressive
+anemia due to malignancy,Common,0.75,30,365,Chronic,Gradual,Progressive,High,0,90,All Ages,Both,Hematological,Multisystem,Moderate to Severe,Moderate,Often,Chronic Progressive
+anemia of chronic disease,Common,0.75,90,10950,Chronic,Insidious,Chronic Stable,Moderate,0,90,All Ages,Both,Hematological,Autoimmune,Moderate,Low,Rare,Chronic
+angina,Common,0.75,0,1,Very Acute,Sudden,Relapsing,High,40,90,Middle Aged,Slightly Male,Cardiovascular,None,Moderate,Low,Sometimes,Chronic
+ankylosing spondylitis,Rare,0.35,3650,18250,Chronic,Insidious,Progressive,Moderate,15,45,Young Adult,Male,Musculoskeletal,Autoimmune,Moderate,Very Low,Rare,Chronic Progressive
+anxiety,Very Common,1,180,10950,Chronic,Gradual,Relapsing,Moderate,10,80,Young Adult,Slightly Female,Psychiatric,None,Mild to Moderate,Very Low,Rare,Chronic
+aortic valve disease,Common,0.75,365,7300,Chronic,Insidious,Progressive,High,40,90,Elderly,Slightly Male,Cardiovascular,None,Moderate to Severe,Low,Sometimes,Chronic Progressive
+aphakia,Rare,0.35,365,18250,Chronic,Sudden,Chronic Stable,Low,0,90,All Ages,Both,Ophthalmological,None,Mild,Very Low,Rare,Chronic
+aphthous ulcer,Very Common,1,4,14,Subacute,Sudden,Relapsing,Low,5,60,Young Adult,Both,ENT,Gastrointestinal,Mild,Very Low,Rare,Acute Self-Limiting
+aplastic anemia,Very Rare,0.15,30,365,Chronic,Gradual,Progressive,Emergency,5,70,All Ages,Both,Hematological,Autoimmune,Severe,High,Almost Always,Chronic
+appendicitis,Common,0.75,1,4,Acute,Sudden,Progressive,Emergency,5,50,Young Adult,Both,Gastrointestinal,Infectious Disease,Moderate to Severe,Low,Almost Always,Acute
+arrhythmia,Common,0.75,0,3650,Chronic,Sudden,Relapsing,High,0,90,All Ages,Both,Cardiovascular,Neurological,Moderate,Low,Sometimes,Chronic
+arthritis of the hip,Common,0.75,365,10950,Chronic,Insidious,Progressive,Moderate,50,90,Elderly,Both,Musculoskeletal,None,Moderate,Very Low,Rare,Chronic Progressive
+ascending cholangitis,Rare,0.35,1,5,Acute,Sudden,Progressive,Emergency,40,80,Middle Aged,Both,Gastrointestinal,Infectious Disease,Severe,Moderate,Almost Always,Acute
+asperger syndrome,Common,0.75,3650,25550,Chronic,Insidious,Chronic Stable,Low,3,18,Child,Male,Psychiatric,Neurological,Mild,Very Low,Rare,Chronic
+aspergillosis,Rare,0.35,14,180,Chronic,Gradual,Progressive,High,20,80,Middle Aged,Both,Infectious Disease,Respiratory,Severe,Moderate,Often,Subacute
+asthma,Very Common,1,365,25550,Chronic,Sudden,Relapsing,High,0,90,All Ages,Both,Respiratory,Autoimmune,Moderate,Low,Sometimes,Chronic
+astigmatism,Very Common,1,3650,25550,Chronic,Insidious,Chronic Stable,Low,0,90,All Ages,Both,Ophthalmological,None,Mild,Very Low,Rare,Chronic
+atelectasis,Common,0.75,1,14,Subacute,Sudden,Progressive,High,0,90,All Ages,Both,Respiratory,None,Moderate,Low,Often,Acute
+athlete's foot,Very Common,1,7,60,Chronic,Gradual,Relapsing,Low,13,70,Young Adult,Male,Dermatological,Infectious Disease,Mild,Very Low,Rare,Acute Self-Limiting
+atonic bladder,Rare,0.35,365,10950,Chronic,Gradual,Chronic Stable,Moderate,40,90,Elderly,Both,Genitourinary,Neurological,Moderate,Very Low,Rare,Chronic
+atrial fibrillation,Common,0.75,1,10950,Chronic,Sudden,Relapsing,High,50,95,Elderly,Both,Cardiovascular,None,Moderate,Low,Sometimes,Chronic
+atrial flutter,Common,0.75,1,3650,Chronic,Sudden,Relapsing,High,50,95,Elderly,Slightly Male,Cardiovascular,None,Moderate,Low,Sometimes,Chronic
+atrophic skin condition,Common,0.75,365,10950,Chronic,Insidious,Progressive,Low,60,95,Elderly,Both,Dermatological,None,Mild,Very Low,Rare,Chronic
+atrophic vaginitis,Common,0.75,365,7300,Chronic,Gradual,Progressive,Low,45,90,Middle Aged,Female,Reproductive,Endocrine,Mild,Very Low,Rare,Chronic
+atrophy of the corpus cavernosum,Rare,0.35,365,10950,Chronic,Insidious,Progressive,Low,50,90,Elderly,Male,Reproductive,Cardiovascular,Mild,Very Low,Rare,Chronic
+attention deficit hyperactivity disorder (adhd),Common,0.75,3650,21900,Chronic,Insidious,Chronic Stable,Low,3,18,Child,Male,Psychiatric,Neurological,Mild,Very Low,Rare,Chronic
+autism,Common,0.75,3650,25550,Chronic,Insidious,Chronic Stable,Low,2,18,Child,Male,Psychiatric,Neurological,Moderate,Very Low,Rare,Chronic
+autonomic nervous system disorder,Common,0.75,365,10950,Chronic,Gradual,Progressive,Moderate,15,80,Young Adult,Both,Neurological,Cardiovascular,Moderate,Low,Sometimes,Chronic
+avascular necrosis,Rare,0.35,180,3650,Chronic,Gradual,Progressive,Moderate,20,60,Young Adult,Slightly Male,Musculoskeletal,Cardiovascular,Moderate to Severe,Very Low,Often,Chronic Progressive
+balanitis,Common,0.75,3,10,Acute,Sudden,Self-limiting,Moderate,0,90,All Ages,Male,Reproductive,Infectious Disease,Mild,Very Low,Rare,Acute Self-Limiting
+bell palsy,Rare,0.35,14,180,Chronic,Sudden,Self-limiting,Moderate,15,80,Young Adult,Both,Neurological,None,Moderate,Very Low,Rare,Acute Self-Limiting
+benign kidney cyst,Common,0.75,365,10950,Chronic,Insidious,Chronic Stable,Low,40,90,Middle Aged,Both,Genitourinary,None,Mild,Very Low,Rare,Chronic
+benign paroxysmal positional vertical (bppv),Common,0.75,1,30,Chronic,Sudden,Relapsing,Moderate,40,90,Elderly,Slightly Female,ENT,Neurological,Moderate,Very Low,Rare,Relapsing-Remitting
+benign prostatic hyperplasia (bph),Very Common,1,365,10950,Chronic,Insidious,Progressive,Moderate,50,95,Elderly,Male,Genitourinary,Reproductive,Moderate,Very Low,Rare,Chronic Progressive
+benign vaginal discharge (leukorrhea),Very Common,1,2,7,Acute,Gradual,Self-limiting,Low,13,50,Young Adult,Female,Reproductive,Infectious Disease,Mild,Very Low,Rare,Acute Self-Limiting
+bipolar disorder,Common,0.75,365,25550,Chronic,Gradual,Relapsing,High,15,50,Young Adult,Both,Psychiatric,None,Moderate,Low,Sometimes,Chronic
+birth trauma,Common,0.75,1,3650,Chronic,Sudden,Self-limiting,High,0,0,Infant,Both,Multisystem,Neurological,Moderate to Severe,Low,Often,Acute
+bladder cancer,Common,0.75,180,3650,Chronic,Gradual,Progressive,High,50,90,Elderly,Male,Genitourinary,None,Moderate to Severe,Moderate,Often,Chronic Progressive
+bladder disorder,Common,0.75,30,3650,Chronic,Gradual,Chronic Stable,Moderate,0,90,All Ages,Both,Genitourinary,None,Mild,Very Low,Rare,Chronic
+bladder obstruction,Common,0.75,1,365,Chronic,Gradual,Progressive,High,0,95,All Ages,Slightly Male,Genitourinary,None,Moderate to Severe,Low,Often,Acute
+blepharitis,Common,0.75,14,3650,Chronic,Gradual,Relapsing,Low,0,90,All Ages,Both,Ophthalmological,Dermatological,Mild,Very Low,Rare,Chronic
+blepharospasm,Rare,0.35,30,10950,Chronic,Gradual,Relapsing,Low,40,80,Middle Aged,Slightly Female,Neurological,Ophthalmological,Mild to Moderate,Very Low,Rare,Chronic
+bone cancer,Rare,0.35,90,1825,Chronic,Gradual,Progressive,High,5,80,All Ages,Both,Musculoskeletal,None,Severe,High,Often,Chronic Progressive
+bone disorder,Common,0.75,365,10950,Chronic,Insidious,Progressive,Moderate,0,90,All Ages,Both,Musculoskeletal,None,Mild to Moderate,Very Low,Rare,Chronic
+bone spur of the calcaneous,Common,0.75,365,10950,Chronic,Insidious,Chronic Stable,Low,40,80,Middle Aged,Both,Musculoskeletal,None,Mild,Very Low,Rare,Chronic
+brachial neuritis,Rare,0.35,14,365,Chronic,Sudden,Self-limiting,Moderate,20,70,Middle Aged,Both,Neurological,Musculoskeletal,Moderate,Very Low,Rare,Acute
+brain cancer,Rare,0.35,60,1095,Chronic,Gradual,Progressive,Emergency,0,85,All Ages,Both,Neurological,None,Severe,High,Almost Always,Chronic Progressive
+breast cancer,Common,0.75,180,7300,Chronic,Gradual,Progressive,High,30,80,Middle Aged,Female,Reproductive,None,Severe,Moderate,Often,Chronic Progressive
+breast cyst,Common,0.75,30,3650,Chronic,Gradual,Chronic Stable,Moderate,20,55,Young Adult,Female,Reproductive,None,Mild,Very Low,Rare,Chronic
+breast infection (mastitis),Common,0.75,3,14,Subacute,Sudden,Self-limiting,Moderate,18,50,Young Adult,Female,Reproductive,Infectious Disease,Mild to Moderate,Very Low,Rare,Acute
+broken tooth,Common,0.75,1,10950,Chronic,Sudden,Chronic Stable,Moderate,0,90,All Ages,Both,ENT,None,Mild,Very Low,Rare,Acute
+bunion,Common,0.75,365,10950,Chronic,Gradual,Progressive,Low,20,85,Middle Aged,Female,Musculoskeletal,None,Mild,Very Low,Rare,Chronic Progressive
+burn,Common,0.75,7,180,Chronic,Sudden,Self-limiting,High,0,90,All Ages,Both,Dermatological,Multisystem,Moderate to Severe,Moderate,Sometimes,Acute
+bursitis,Common,0.75,7,30,Chronic,Sudden,Self-limiting,Moderate,25,80,Middle Aged,Both,Musculoskeletal,None,Mild,Very Low,Rare,Acute
+callus,Very Common,1,30,3650,Chronic,Gradual,Chronic Stable,Low,10,95,All Ages,Both,Dermatological,None,Mild,Very Low,Rare,Chronic
+carbon monoxide poisoning,Rare,0.35,0,1,Very Acute,Sudden,Self-limiting,Emergency,0,90,All Ages,Both,Multisystem,Cardiovascular,Severe,High,Almost Always,Acute
+carcinoid syndrome,Very Rare,0.15,365,3650,Chronic,Insidious,Progressive,Moderate,40,80,Middle Aged,Both,Endocrine,Gastrointestinal,Moderate to Severe,Moderate,Often,Chronic Progressive
+cardiac arrest,Rare,0.35,0,1,Very Acute,Sudden,Progressive,Emergency,0,95,All Ages,Slightly Male,Cardiovascular,Multisystem,Severe,High,Almost Always,Acute
+cardiomyopathy,Common,0.75,365,7300,Chronic,Insidious,Progressive,High,0,90,All Ages,Both,Cardiovascular,None,Moderate to Severe,Low,Often,Chronic Progressive
+carpal tunnel syndrome,Common,0.75,90,10950,Chronic,Gradual,Progressive,Moderate,30,70,Middle Aged,Female,Neurological,Musculoskeletal,Mild to Moderate,Very Low,Rare,Chronic
+cat scratch disease,Rare,0.35,7,42,Chronic,Sudden,Self-limiting,Low,2,30,Child,Both,Infectious Disease,Hematological,Mild,Very Low,Rare,Acute Self-Limiting
+cataract,Very Common,1,365,7300,Chronic,Insidious,Progressive,Moderate,45,95,Elderly,Both,Ophthalmological,None,Moderate,Very Low,Rare,Chronic Progressive
+celiac disease,Common,0.75,365,25550,Chronic,Gradual,Progressive,Moderate,1,70,All Ages,Slightly Female,Gastrointestinal,Autoimmune,Moderate,Very Low,Rare,Chronic
+cellulitis or abscess of mouth,Common,0.75,2,10,Acute,Sudden,Progressive,High,0,90,All Ages,Both,ENT,Infectious Disease,Moderate,Low,Sometimes,Acute
+central atherosclerosis,Common,0.75,3650,18250,Chronic,Insidious,Progressive,High,45,95,Elderly,Slightly Male,Cardiovascular,None,Moderate,Low,Rare,Chronic Progressive
+central retinal artery or vein occlusion,Rare,0.35,0,1,Very Acute,Sudden,Progressive,Emergency,50,90,Elderly,Both,Ophthalmological,Cardiovascular,Severe,Very Low,Often,Acute
+cerebral edema,Rare,0.35,1,7,Acute,Sudden,Progressive,Emergency,0,90,All Ages,Both,Neurological,None,Severe,High,Almost Always,Acute
+cerebral palsy,Common,0.75,3650,25550,Chronic,Sudden,Chronic Stable,Moderate,0,2,Infant,Both,Neurological,Musculoskeletal,Severe,Very Low,Rare,Chronic
+cervical cancer,Common,0.75,365,3650,Chronic,Insidious,Progressive,High,30,70,Middle Aged,Female,Reproductive,None,Severe,Moderate,Often,Chronic Progressive
+cervical disorder,Common,0.75,30,10950,Chronic,Gradual,Chronic Stable,Moderate,18,85,Young Adult,Both,Musculoskeletal,Neurological,Mild,Very Low,Rare,Chronic
+cervicitis,Common,0.75,7,30,Chronic,Gradual,Self-limiting,Moderate,18,55,Young Adult,Female,Reproductive,Infectious Disease,Mild,Very Low,Rare,Acute Self-Limiting
+chalazion,Common,0.75,14,60,Chronic,Gradual,Self-limiting,Low,5,80,All Ages,Both,Ophthalmological,None,Mild,Very Low,Rare,Acute Self-Limiting
+chickenpox,Common,0.75,7,14,Subacute,Sudden,Self-limiting,Moderate,1,30,Child,Both,Infectious Disease,Dermatological,Mild to Moderate,Very Low,Rare,Acute Self-Limiting
+chlamydia,Common,0.75,7,60,Chronic,Gradual,Progressive,Moderate,15,45,Young Adult,Both,Infectious Disease,Reproductive,Mild,Very Low,Rare,Acute
+cholecystitis,Common,0.75,1,7,Acute,Sudden,Progressive,High,30,80,Middle Aged,Slightly Female,Gastrointestinal,Infectious Disease,Moderate to Severe,Low,Often,Acute
+choledocholithiasis,Common,0.75,1,14,Subacute,Sudden,Progressive,Emergency,30,85,Middle Aged,Both,Gastrointestinal,None,Moderate to Severe,Low,Often,Acute
+cholesteatoma,Rare,0.35,365,3650,Chronic,Insidious,Progressive,Moderate,5,60,All Ages,Both,ENT,None,Moderate,Very Low,Sometimes,Chronic Progressive
+chondromalacia of the patella,Common,0.75,180,10950,Chronic,Gradual,Progressive,Moderate,15,40,Young Adult,Slightly Female,Musculoskeletal,None,Mild,Very Low,Rare,Chronic
+chorioretinitis,Rare,0.35,14,90,Chronic,Gradual,Progressive,High,0,80,All Ages,Both,Ophthalmological,Infectious Disease,Moderate,Very Low,Sometimes,Subacute
+chronic back pain,Very Common,1,90,14600,Chronic,Gradual,Chronic Stable,Moderate,18,90,Middle Aged,Both,Musculoskeletal,Neurological,Moderate,Very Low,Rare,Chronic
+chronic constipation,Very Common,1,30,14600,Chronic,Gradual,Chronic Stable,Low,0,95,All Ages,Both,Gastrointestinal,None,Mild,Very Low,Rare,Chronic
+chronic glaucoma,Common,0.75,365,10950,Chronic,Insidious,Progressive,Moderate,45,95,Elderly,Both,Ophthalmological,None,Moderate,Very Low,Rare,Chronic Progressive
+chronic inflammatory demyelinating polyneuropathy (cidp),Very Rare,0.15,60,3650,Chronic,Gradual,Progressive,Moderate,30,80,Middle Aged,Slightly Male,Neurological,Autoimmune,Moderate to Severe,Low,Sometimes,Chronic Progressive
+chronic kidney disease,Common,0.75,365,10950,Chronic,Insidious,Progressive,High,10,95,Middle Aged,Both,Genitourinary,Multisystem,Moderate to Severe,Moderate,Often,Chronic Progressive
+chronic knee pain,Very Common,1,90,14600,Chronic,Gradual,Chronic Stable,Low,30,95,Middle Aged,Both,Musculoskeletal,None,Moderate,Very Low,Rare,Chronic
+chronic obstructive pulmonary disease (copd),Common,0.75,365,10950,Chronic,Insidious,Progressive,High,40,95,Elderly,Slightly Male,Respiratory,None,Moderate to Severe,Low,Sometimes,Chronic Progressive
+chronic otitis media,Common,0.75,30,7300,Chronic,Gradual,Relapsing,Moderate,2,70,All Ages,Both,ENT,Infectious Disease,Mild to Moderate,Very Low,Rare,Chronic
+chronic pain disorder,Common,0.75,90,18250,Chronic,Gradual,Chronic Stable,Moderate,18,90,All Ages,Both,Psychiatric,Neurological,Moderate,Very Low,Rare,Chronic
+chronic pancreatitis,Rare,0.35,365,7300,Chronic,Gradual,Progressive,High,30,75,Middle Aged,Slightly Male,Gastrointestinal,Endocrine,Moderate to Severe,Low,Often,Chronic Progressive
+chronic rheumatic fever,Rare,0.35,365,10950,Chronic,Sudden,Relapsing,High,5,30,Child,Both,Cardiovascular,Autoimmune,Moderate,Low,Sometimes,Chronic
+chronic sinusitis,Common,0.75,90,3650,Chronic,Gradual,Relapsing,Moderate,5,90,All Ages,Both,ENT,Respiratory,Mild to Moderate,Very Low,Rare,Chronic
+chronic ulcer,Common,0.75,30,365,Chronic,Gradual,Progressive,Moderate,40,95,Elderly,Both,Dermatological,Cardiovascular,Moderate,Very Low,Rare,Chronic
+cirrhosis,Common,0.75,365,7300,Chronic,Insidious,Progressive,High,30,80,Middle Aged,Slightly Male,Gastrointestinal,Multisystem,Severe,Moderate,Often,Chronic Progressive
+coagulation (bleeding) disorder,Common,0.75,365,25550,Chronic,Gradual,Progressive,High,0,85,All Ages,Both,Hematological,None,Moderate to Severe,Moderate,Sometimes,Chronic
+cold sore,Very Common,1,7,14,Subacute,Sudden,Relapsing,Low,2,85,All Ages,Both,Dermatological,Infectious Disease,Mild,Very Low,Rare,Relapsing-Remitting
+colonic polyp,Common,0.75,365,3650,Chronic,Insidious,Progressive,Moderate,45,90,Middle Aged,Both,Gastrointestinal,None,Mild,Very Low,Rare,Chronic
+colorectal cancer,Common,0.75,365,3650,Chronic,Insidious,Progressive,High,45,90,Elderly,Slightly Male,Gastrointestinal,None,Severe,Moderate,Often,Chronic Progressive
+common cold,Very Common,1,3,10,Acute,Sudden,Self-limiting,Low,0,90,All Ages,Both,Respiratory,ENT,Mild,Very Low,Rare,Acute Self-Limiting
+complex regional pain syndrome,Rare,0.35,180,10950,Chronic,Sudden,Progressive,Moderate,30,70,Middle Aged,Slightly Female,Neurological,Musculoskeletal,Moderate to Severe,Very Low,Rare,Chronic
+concussion,Common,0.75,1,14,Subacute,Sudden,Self-limiting,High,0,90,All Ages,Both,Neurological,None,Moderate,Low,Sometimes,Acute
+conduct disorder,Common,0.75,365,5475,Chronic,Gradual,Chronic Stable,Moderate,5,18,Child,Male,Psychiatric,None,Moderate,Very Low,Rare,Chronic
+conductive hearing loss,Common,0.75,365,18250,Chronic,Gradual,Chronic Stable,Moderate,0,90,All Ages,Both,ENT,None,Mild to Moderate,Very Low,Rare,Chronic
+congenital heart defect,Common,0.75,3650,25550,Chronic,Sudden,Chronic Stable,High,0,5,Infant,Both,Cardiovascular,None,Moderate to Severe,Moderate,Often,Chronic
+congenital malformation syndrome,Common,0.75,3650,25550,Chronic,Sudden,Chronic Stable,Moderate,0,5,Infant,Both,Multisystem,None,Severe,Moderate,Often,Chronic
+conjunctivitis,Very Common,1,3,10,Acute,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Ophthalmological,Infectious Disease,Mild,Very Low,Rare,Acute Self-Limiting
+conjunctivitis due to allergy,Very Common,1,1,7,Acute,Sudden,Relapsing,Low,5,70,All Ages,Both,Ophthalmological,Autoimmune,Mild,Very Low,Rare,Relapsing-Remitting
+conjunctivitis due to bacteria,Common,0.75,5,14,Subacute,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Ophthalmological,Infectious Disease,Mild,Very Low,Rare,Acute Self-Limiting
+conjunctivitis due to virus,Common,0.75,7,21,Subacute,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Ophthalmological,Infectious Disease,Mild,Very Low,Rare,Acute Self-Limiting
+connective tissue disorder,Common,0.75,365,18250,Chronic,Insidious,Progressive,Moderate,15,75,Young Adult,Slightly Female,Autoimmune,Musculoskeletal,Moderate,Low,Rare,Chronic
+contact dermatitis,Very Common,1,3,14,Subacute,Sudden,Self-limiting,Low,0,90,All Ages,Both,Dermatological,Autoimmune,Mild,Very Low,Rare,Acute
+conversion disorder,Rare,0.35,7,365,Chronic,Sudden,Relapsing,Moderate,15,50,Young Adult,Slightly Female,Psychiatric,Neurological,Moderate,Very Low,Rare,Subacute
+cornea infection,Common,0.75,3,14,Subacute,Sudden,Progressive,High,0,90,All Ages,Both,Ophthalmological,Infectious Disease,Moderate to Severe,Very Low,Sometimes,Acute
+corneal abrasion,Common,0.75,1,5,Acute,Sudden,Self-limiting,High,0,90,All Ages,Both,Ophthalmological,None,Mild to Moderate,Very Low,Rare,Acute Self-Limiting
+corneal disorder,Common,0.75,30,10950,Chronic,Gradual,Chronic Stable,Moderate,0,90,All Ages,Both,Ophthalmological,None,Mild to Moderate,Very Low,Rare,Chronic
+coronary atherosclerosis,Very Common,1,3650,18250,Chronic,Insidious,Progressive,High,35,95,Middle Aged,Slightly Male,Cardiovascular,None,Moderate,Low,Sometimes,Chronic Progressive
+cranial nerve palsy,Rare,0.35,14,365,Chronic,Sudden,Relapsing,Moderate,0,90,All Ages,Both,Neurological,None,Moderate,Very Low,Rare,Subacute
+crohn disease,Common,0.75,365,18250,Chronic,Gradual,Relapsing,Moderate,15,45,Young Adult,Both,Gastrointestinal,Autoimmune,Moderate to Severe,Low,Sometimes,Chronic
+croup,Common,0.75,2,7,Acute,Sudden,Self-limiting,High,0,6,Infant,Both,Respiratory,ENT,Moderate,Low,Sometimes,Acute Self-Limiting
+crushing injury,Rare,0.35,1,90,Chronic,Sudden,Self-limiting,Emergency,0,90,All Ages,Both,Musculoskeletal,Multisystem,Severe,Moderate,Almost Always,Acute
+cryptococcosis,Rare,0.35,14,90,Chronic,Gradual,Progressive,High,20,75,Young Adult,Both,Infectious Disease,Neurological,Severe,Moderate,Almost Always,Subacute
+cryptorchidism,Rare,0.35,365,7300,Chronic,Sudden,Chronic Stable,Moderate,0,2,Infant,Male,Reproductive,Genitourinary,Mild,Very Low,Rare,Chronic
+cushing syndrome,Very Rare,0.15,365,3650,Chronic,Insidious,Progressive,Moderate,20,60,Young Adult,Slightly Female,Endocrine,Multisystem,Moderate to Severe,Low,Sometimes,Chronic
+cyst of the eyelid,Common,0.75,14,90,Chronic,Gradual,Self-limiting,Low,5,90,All Ages,Both,Ophthalmological,None,Mild,Very Low,Rare,Acute
+cystic fibrosis,Rare,0.35,3650,14600,Chronic,Insidious,Progressive,High,0,45,Child,Both,Respiratory,Gastrointestinal,Severe,Moderate,Often,Chronic Progressive
+cysticercosis,Rare,0.35,30,730,Chronic,Insidious,Progressive,Moderate,5,75,All Ages,Both,Infectious Disease,Neurological,Moderate,Low,Sometimes,Chronic
+cystitis,Common,0.75,3,7,Acute,Sudden,Self-limiting,Moderate,15,85,Young Adult,Female,Genitourinary,Infectious Disease,Mild to Moderate,Very Low,Rare,Acute
+de quervain disease,Common,0.75,30,180,Chronic,Gradual,Self-limiting,Low,30,60,Middle Aged,Female,Musculoskeletal,None,Moderate,Very Low,Rare,Subacute
+decubitus ulcer,Common,0.75,14,365,Chronic,Gradual,Progressive,High,60,95,Elderly,Both,Dermatological,Neurological,Moderate to Severe,Low,Sometimes,Chronic
+deep vein thrombosis (dvt),Common,0.75,14,180,Chronic,Sudden,Progressive,High,30,90,Middle Aged,Both,Cardiovascular,Hematological,Moderate to Severe,Low,Often,Acute
+degenerative disc disease,Very Common,1,365,18250,Chronic,Insidious,Progressive,Moderate,30,95,Middle Aged,Both,Musculoskeletal,Neurological,Moderate,Very Low,Rare,Chronic Progressive
+delirium,Common,0.75,1,7,Acute,Sudden,Self-limiting,Emergency,60,95,Elderly,Both,Neurological,Psychiatric,Severe,Low,Almost Always,Acute
+dementia,Common,0.75,1095,7300,Chronic,Insidious,Progressive,Moderate,60,95,Elderly,Both,Neurological,Psychiatric,Severe,Very Low,Rare,Chronic Progressive
+dengue fever,Common,0.75,5,14,Subacute,Sudden,Self-limiting,High,0,90,All Ages,Both,Infectious Disease,Hematological,Moderate to Severe,Low,Often,Acute Self-Limiting
+dental caries,Very Common,1,180,7300,Chronic,Insidious,Progressive,Low,2,90,All Ages,Both,ENT,None,Mild,Very Low,Rare,Chronic Progressive
+depression,Very Common,1,60,18250,Chronic,Gradual,Relapsing,Moderate,13,85,Young Adult,Slightly Female,Psychiatric,None,Moderate,Low,Rare,Chronic
+dermatitis due to sun exposure,Common,0.75,3,10,Acute,Sudden,Self-limiting,Low,5,85,All Ages,Both,Dermatological,None,Mild,Very Low,Rare,Acute
+developmental disability,Common,0.75,3650,25550,Chronic,Insidious,Chronic Stable,Moderate,0,18,Child,Both,Neurological,Psychiatric,Moderate,Very Low,Rare,Chronic
+deviated nasal septum,Common,0.75,365,18250,Chronic,Gradual,Chronic Stable,Low,10,80,Young Adult,Both,ENT,None,Mild,Very Low,Rare,Chronic
+diabetes,Very Common,1,365,21900,Chronic,Gradual,Progressive,High,10,95,Middle Aged,Both,Endocrine,Multisystem,Moderate,Low,Rare,Chronic
+diabetes insipidus,Very Rare,0.15,365,18250,Chronic,Gradual,Chronic Stable,Moderate,5,75,All Ages,Both,Endocrine,Genitourinary,Moderate,Very Low,Rare,Chronic
+diabetic ketoacidosis,Common,0.75,1,3,Very Acute,Sudden,Progressive,Emergency,10,75,Young Adult,Both,Endocrine,Multisystem,Severe,Moderate,Almost Always,Acute
+diabetic kidney disease,Common,0.75,1095,10950,Chronic,Insidious,Progressive,High,35,90,Middle Aged,Both,Genitourinary,Endocrine,Moderate to Severe,Moderate,Often,Chronic Progressive
+diabetic peripheral neuropathy,Common,0.75,365,10950,Chronic,Insidious,Progressive,Moderate,40,95,Middle Aged,Both,Neurological,Endocrine,Moderate,Very Low,Rare,Chronic Progressive
+diabetic retinopathy,Common,0.75,365,7300,Chronic,Insidious,Progressive,High,35,95,Middle Aged,Both,Ophthalmological,Endocrine,Moderate to Severe,Very Low,Rare,Chronic Progressive
+diaper rash,Very Common,1,2,7,Acute,Sudden,Self-limiting,Low,0,2,Infant,Both,Dermatological,None,Mild,Very Low,Rare,Acute Self-Limiting
+dislocation of the ankle,Rare,0.35,30,180,Chronic,Sudden,Self-limiting,Emergency,5,80,Young Adult,Both,Musculoskeletal,None,Moderate,Very Low,Often,Acute
+dislocation of the elbow,Rare,0.35,21,120,Chronic,Sudden,Self-limiting,Emergency,2,75,Child,Both,Musculoskeletal,None,Moderate,Very Low,Often,Acute
+dislocation of the finger,Common,0.75,14,60,Chronic,Sudden,Self-limiting,Moderate,5,85,All Ages,Both,Musculoskeletal,None,Mild,Very Low,Rare,Acute
+dislocation of the foot,Rare,0.35,30,180,Chronic,Sudden,Self-limiting,Emergency,5,80,Young Adult,Both,Musculoskeletal,None,Moderate,Very Low,Often,Acute
+dislocation of the hip,Rare,0.35,60,365,Chronic,Sudden,Progressive,Emergency,0,85,All Ages,Both,Musculoskeletal,None,Moderate to Severe,Very Low,Almost Always,Acute
+dislocation of the knee,Rare,0.35,60,365,Chronic,Sudden,Progressive,Emergency,15,70,Young Adult,Both,Musculoskeletal,None,Severe,Very Low,Almost Always,Acute
+dislocation of the patella,Common,0.75,21,90,Chronic,Sudden,Relapsing,High,13,40,Adolescent,Both,Musculoskeletal,None,Moderate,Very Low,Often,Acute
+dislocation of the shoulder,Common,0.75,14,180,Chronic,Sudden,Relapsing,High,15,75,Young Adult,Slightly Male,Musculoskeletal,None,Moderate,Very Low,Often,Acute
+dislocation of the vertebra,Rare,0.35,30,730,Chronic,Sudden,Progressive,Emergency,15,85,All Ages,Both,Musculoskeletal,Neurological,Severe,Low,Almost Always,Acute
+dislocation of the wrist,Rare,0.35,21,120,Chronic,Sudden,Self-limiting,High,5,85,All Ages,Both,Musculoskeletal,None,Moderate,Very Low,Rare,Chronic
+dissociative disorder,Rare,0.35,30,18250,Chronic,Sudden,Relapsing,Moderate,15,45,Young Adult,Slightly Female,Psychiatric,None,Moderate to Severe,Low,Sometimes,Acute
+diverticulitis,Common,0.75,7,21,Subacute,Sudden,Relapsing,High,45,95,Elderly,Both,Gastrointestinal,Infectious Disease,Mild,Very Low,Rare,Chronic
+diverticulosis,Common,0.75,365,10950,Chronic,Insidious,Chronic Stable,Low,45,95,Elderly,Both,Gastrointestinal,None,Severe,Low,Rare,Chronic
+down syndrome,Rare,0.35,3650,21900,Chronic,Sudden,Chronic Stable,Moderate,0,60,Infant,Both,Multisystem,Neurological,Moderate,Low,Sometimes,Chronic
+drug abuse,Common,0.75,365,14600,Chronic,Insidious,Progressive,Moderate,15,55,Young Adult,Slightly Male,Psychiatric,Multisystem,Moderate,Low,Sometimes,Chronic
+drug abuse (barbiturates),Common,0.75,365,14600,Chronic,Insidious,Progressive,Moderate,15,65,Young Adult,Both,Psychiatric,Neurological,Moderate,Low,Sometimes,Chronic
+drug abuse (cocaine),Common,0.75,365,14600,Chronic,Insidious,Progressive,Moderate,18,55,Young Adult,Slightly Male,Psychiatric,Cardiovascular,Moderate,Low,Sometimes,Chronic
+drug abuse (methamphetamine),Common,0.75,365,14600,Chronic,Insidious,Progressive,Moderate,18,55,Young Adult,Slightly Male,Psychiatric,Cardiovascular,Moderate,Low,Sometimes,Chronic
+drug abuse (opioids),Common,0.75,365,14600,Chronic,Insidious,Progressive,Moderate,18,65,Young Adult,Slightly Male,Psychiatric,Respiratory,Severe,Moderate,Almost Always,Acute
+drug poisoning due to medication,Common,0.75,1,7,Acute,Sudden,Self-limiting,Emergency,0,90,All Ages,Both,Multisystem,None,Moderate,Low,Sometimes,Acute
+drug reaction,Common,0.75,1,14,Subacute,Sudden,Self-limiting,High,0,90,All Ages,Both,Multisystem,Dermatological,Moderate,Low,Often,Acute
+drug withdrawal,Common,0.75,3,14,Subacute,Sudden,Self-limiting,Emergency,18,65,Young Adult,Both,Psychiatric,Neurological,Mild,Very Low,Rare,Chronic
+dry eye of unknown cause,Very Common,1,90,14600,Chronic,Gradual,Chronic Stable,Low,40,95,Middle Aged,Slightly Female,Ophthalmological,None,Moderate,Very Low,Rare,Chronic
+dumping syndrome,Rare,0.35,30,10950,Chronic,Sudden,Chronic Stable,Moderate,20,75,Young Adult,Both,Gastrointestinal,None,Mild,Very Low,Rare,Relapsing-Remitting
+dyshidrosis,Common,0.75,14,3650,Chronic,Sudden,Relapsing,Low,15,50,Young Adult,Both,Dermatological,None,Moderate,Very Low,Rare,Chronic
+dysthymic disorder,Common,0.75,730,18250,Chronic,Insidious,Chronic Stable,Moderate,18,75,Young Adult,Slightly Female,Psychiatric,None,Mild to Moderate,Very Low,Rare,Acute
+ear drum damage,Common,0.75,7,180,Chronic,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,ENT,None,Mild,Very Low,Rare,Acute
+ear wax impaction,Very Common,1,7,365,Chronic,Gradual,Self-limiting,Low,0,95,All Ages,Both,ENT,None,Moderate to Severe,Low,Sometimes,Chronic
+eating disorder,Common,0.75,180,7300,Chronic,Gradual,Progressive,High,12,35,Adolescent,Female,Psychiatric,Gastrointestinal,Severe,Moderate,Almost Always,Acute
+ectopic pregnancy,Common,0.75,1,3,Very Acute,Sudden,Progressive,Emergency,18,45,Young Adult,Female,Reproductive,None,Mild,Very Low,Rare,Chronic
+ectropion,Rare,0.35,365,7300,Chronic,Gradual,Progressive,Low,60,95,Elderly,Both,Ophthalmological,None,Mild to Moderate,Very Low,Rare,Chronic
+eczema,Very Common,1,30,21900,Chronic,Gradual,Relapsing,Low,0,90,All Ages,Both,Dermatological,Autoimmune,Severe,High,Almost Always,Chronic
+edward syndrome,Very Rare,0.15,1,365,Chronic,Sudden,Progressive,High,0,1,Infant,Slightly Female,Multisystem,Neurological,Moderate to Severe,Low,Sometimes,Chronic Progressive
+emphysema,Common,0.75,365,10950,Chronic,Insidious,Progressive,High,45,95,Elderly,Slightly Male,Respiratory,None,Severe,Low,Almost Always,Acute
+empyema,Rare,0.35,14,60,Chronic,Sudden,Progressive,High,0,90,All Ages,Both,Respiratory,Infectious Disease,Severe,Moderate,Almost Always,Acute
+encephalitis,Rare,0.35,7,30,Chronic,Sudden,Progressive,Emergency,0,90,All Ages,Both,Infectious Disease,Neurological,Severe,Moderate,Almost Always,Subacute
+endocarditis,Rare,0.35,21,90,Chronic,Gradual,Progressive,Emergency,20,95,All Ages,Slightly Male,Cardiovascular,Infectious Disease,Severe,Moderate,Often,Chronic Progressive
+endometrial cancer,Common,0.75,180,3650,Chronic,Gradual,Progressive,High,50,85,Elderly,Female,Reproductive,None,Moderate,Very Low,Rare,Chronic
+endometrial hyperplasia,Common,0.75,90,3650,Chronic,Gradual,Progressive,Moderate,40,70,Middle Aged,Female,Reproductive,Endocrine,Moderate,Very Low,Rare,Chronic
+endometriosis,Common,0.75,365,10950,Chronic,Gradual,Progressive,Moderate,15,50,Young Adult,Female,Reproductive,None,Severe,Very Low,Often,Acute
+endophthalmitis,Very Rare,0.15,1,7,Acute,Sudden,Progressive,Emergency,0,95,All Ages,Both,Ophthalmological,Infectious Disease,Moderate to Severe,Low,Often,Acute
+envenomation from spider or animal bite,Common,0.75,1,7,Acute,Sudden,Progressive,Emergency,0,90,All Ages,Both,Multisystem,Dermatological,Severe,Moderate,Often,Chronic Progressive
+ependymoma,Very Rare,0.15,180,1825,Chronic,Gradual,Progressive,High,0,65,Child,Both,Neurological,None,Moderate,Very Low,Rare,Acute
+epididymitis,Common,0.75,7,21,Subacute,Sudden,Self-limiting,Moderate,18,55,Young Adult,Male,Reproductive,Infectious Disease,Severe,High,Almost Always,Acute
+epidural hemorrhage,Rare,0.35,0,1,Very Acute,Sudden,Progressive,Emergency,5,85,All Ages,Slightly Male,Neurological,None,Moderate,Low,Sometimes,Chronic
+epilepsy,Common,0.75,365,25550,Chronic,Sudden,Relapsing,High,0,90,All Ages,Both,Neurological,None,Mild,Very Low,Rare,Chronic
+erectile dysfunction,Very Common,1,90,10950,Chronic,Gradual,Chronic Stable,Low,40,95,Middle Aged,Male,Reproductive,Cardiovascular,Moderate,Very Low,Sometimes,Acute
+erythema multiforme,Rare,0.35,14,30,Chronic,Sudden,Self-limiting,Moderate,10,45,Young Adult,Both,Dermatological,Autoimmune,Severe,High,Often,Chronic Progressive
+esophageal cancer,Rare,0.35,180,1095,Chronic,Gradual,Progressive,High,50,90,Elderly,Slightly Male,Gastrointestinal,None,Severe,Moderate,Often,Chronic
+esophageal varices,Rare,0.35,365,7300,Chronic,Insidious,Progressive,Emergency,35,85,Middle Aged,Slightly Male,Gastrointestinal,Cardiovascular,Moderate,Very Low,Rare,Acute
+esophagitis,Common,0.75,14,90,Chronic,Gradual,Self-limiting,Moderate,20,85,Middle Aged,Both,Gastrointestinal,None,Mild,Very Low,Rare,Chronic Progressive
+essential tremor,Common,0.75,3650,18250,Chronic,Insidious,Progressive,Low,40,95,Middle Aged,Both,Neurological,None,Mild,Very Low,Rare,Subacute
+eustachian tube dysfunction (ear disorder),Very Common,1,7,90,Chronic,Gradual,Self-limiting,Moderate,0,85,All Ages,Both,ENT,None,Moderate,Very Low,Sometimes,Acute
+extrapyramidal effect of drugs,Rare,0.35,1,30,Chronic,Sudden,Self-limiting,Moderate,15,85,Young Adult,Both,Neurological,Psychiatric,Mild,Very Low,Rare,Chronic
+eye alignment disorder,Common,0.75,365,18250,Chronic,Gradual,Chronic Stable,Low,0,12,Child,Both,Ophthalmological,Neurological,Moderate,Very Low,Rare,Chronic
+factitious disorder,Rare,0.35,365,10950,Chronic,Gradual,Relapsing,Moderate,18,50,Young Adult,Slightly Female,Psychiatric,None,Mild to Moderate,Very Low,Rare,Acute
+female genitalia infection,Very Common,1,3,14,Subacute,Sudden,Self-limiting,Moderate,15,55,Young Adult,Female,Reproductive,Infectious Disease,Moderate,Very Low,Rare,Chronic
+female infertility of unknown cause,Common,0.75,365,7300,Chronic,Insidious,Chronic Stable,Low,18,45,Young Adult,Female,Reproductive,Endocrine,Severe,Very Low,Rare,Chronic
+fetal alcohol syndrome,Rare,0.35,3650,25550,Chronic,Sudden,Chronic Stable,Moderate,0,0,Infant,Both,Multisystem,Neurological,Mild,Very Low,Rare,Chronic
+fibroadenoma,Common,0.75,365,10950,Chronic,Gradual,Chronic Stable,Low,15,35,Young Adult,Female,Reproductive,None,Mild,Very Low,Rare,Chronic
+fibrocystic breast disease,Common,0.75,365,10950,Chronic,Gradual,Relapsing,Moderate,20,50,Young Adult,Female,Reproductive,None,Moderate,Very Low,Rare,Chronic
+fibromyalgia,Common,0.75,365,18250,Chronic,Insidious,Chronic Stable,Moderate,20,60,Middle Aged,Slightly Female,Musculoskeletal,Psychiatric,Mild,Very Low,Rare,Chronic
+flat feet,Very Common,1,3650,25550,Chronic,Gradual,Chronic Stable,Low,2,90,All Ages,Both,Musculoskeletal,None,Mild,Very Low,Rare,Chronic
+floaters,Very Common,1,365,14600,Chronic,Gradual,Chronic Stable,Low,40,90,Middle Aged,Both,Ophthalmological,None,Mild to Moderate,Low,Sometimes,Acute Self-Limiting
+flu,Very Common,1,3,10,Acute,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Infectious Disease,Respiratory,Moderate to Severe,Moderate,Often,Acute
+fluid overload,Common,0.75,1,7,Acute,Sudden,Progressive,Emergency,40,95,Elderly,Both,Cardiovascular,Genitourinary,Mild to Moderate,Very Low,Rare,Chronic
+folate deficiency,Common,0.75,30,365,Chronic,Insidious,Progressive,Moderate,0,90,All Ages,Both,Hematological,Multisystem,Mild to Severe,Low,Sometimes,Chronic
+food allergy,Common,0.75,0,1,Very Acute,Sudden,Self-limiting,High,0,90,All Ages,Both,Multisystem,Gastrointestinal,Mild,Very Low,Rare,Acute
+foreign body in the ear,Common,0.75,1,3,Very Acute,Sudden,Progressive,Moderate,1,10,Child,Both,ENT,None,Moderate,Very Low,Sometimes,Acute
+foreign body in the eye,Common,0.75,0,1,Very Acute,Sudden,Progressive,High,0,90,All Ages,Slightly Male,Ophthalmological,None,Moderate,Low,Often,Acute
+foreign body in the gastrointestinal tract,Common,0.75,1,5,Acute,Sudden,Progressive,Emergency,1,5,Infant,Both,Gastrointestinal,None,Mild,Very Low,Rare,Acute
+foreign body in the nose,Common,0.75,1,3,Very Acute,Sudden,Progressive,Moderate,1,6,Child,Both,ENT,None,Moderate to Severe,Low,Often,Acute
+foreign body in the throat,Common,0.75,0,1,Very Acute,Sudden,Progressive,Emergency,1,90,All Ages,Both,ENT,Respiratory,Mild,Very Low,Rare,Acute
+foreign body in the vagina,Common,0.75,1,7,Acute,Sudden,Progressive,Moderate,2,50,Child,Female,Reproductive,Genitourinary,Moderate,Very Low,Often,Acute
+fracture of the ankle,Common,0.75,42,180,Chronic,Sudden,Self-limiting,High,5,85,All Ages,Both,Musculoskeletal,None,Moderate,Very Low,Sometimes,Acute
+fracture of the arm,Common,0.75,42,120,Chronic,Sudden,Self-limiting,High,0,90,All Ages,Both,Musculoskeletal,None,Moderate to Severe,Low,Often,Acute
+fracture of the facial bones,Common,0.75,21,90,Chronic,Sudden,Self-limiting,High,15,70,Young Adult,Slightly Male,Musculoskeletal,ENT,Mild,Very Low,Rare,Acute
+fracture of the finger,Common,0.75,21,42,Chronic,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Musculoskeletal,None,Mild to Moderate,Very Low,Sometimes,Acute
+fracture of the foot,Common,0.75,42,120,Chronic,Sudden,Self-limiting,High,5,85,All Ages,Both,Musculoskeletal,None,Mild to Moderate,Very Low,Sometimes,Acute
+fracture of the hand,Common,0.75,21,60,Chronic,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Musculoskeletal,None,Moderate to Severe,Low,Often,Acute
+fracture of the jaw,Common,0.75,30,90,Chronic,Sudden,Self-limiting,High,15,70,Young Adult,Slightly Male,Musculoskeletal,ENT,Moderate to Severe,Low,Almost Always,Acute
+fracture of the leg,Common,0.75,60,240,Chronic,Sudden,Self-limiting,High,0,90,All Ages,Both,Musculoskeletal,None,Severe,Moderate,Almost Always,Acute
+fracture of the neck,Rare,0.35,90,365,Chronic,Sudden,Progressive,Emergency,15,90,All Ages,Slightly Male,Musculoskeletal,Neurological,Moderate,Very Low,Often,Acute
+fracture of the patella,Common,0.75,42,120,Chronic,Sudden,Self-limiting,High,15,80,Young Adult,Both,Musculoskeletal,None,Severe,Moderate,Almost Always,Acute
+fracture of the pelvis,Rare,0.35,60,180,Chronic,Sudden,Progressive,Emergency,15,95,Elderly,Both,Musculoskeletal,Genitourinary,Moderate,Low,Sometimes,Acute
+fracture of the rib,Common,0.75,21,60,Chronic,Sudden,Self-limiting,Moderate,15,95,All Ages,Slightly Male,Musculoskeletal,Respiratory,Moderate,Very Low,Sometimes,Acute
+fracture of the shoulder,Common,0.75,42,120,Chronic,Sudden,Self-limiting,High,5,95,All Ages,Both,Musculoskeletal,None,Severe,Moderate,Almost Always,Acute
+fracture of the skull,Rare,0.35,30,180,Chronic,Sudden,Progressive,Emergency,0,90,All Ages,Slightly Male,Musculoskeletal,Neurological,Severe,Low,Almost Always,Acute
+fracture of the vertebra,Common,0.75,60,365,Chronic,Sudden,Progressive,Emergency,20,95,Elderly,Both,Musculoskeletal,Neurological,Severe,Low,Rare,Chronic Progressive
+friedrich ataxia,Very Rare,0.15,3650,18250,Chronic,Insidious,Progressive,Moderate,5,25,Adolescent,Both,Neurological,Musculoskeletal,Moderate to Severe,Very Low,Sometimes,Acute
+frostbite,Common,0.75,7,60,Chronic,Sudden,Self-limiting,High,0,90,All Ages,Both,Dermatological,Cardiovascular,Mild,Very Low,Rare,Chronic
+fungal infection of the hair,Common,0.75,21,90,Chronic,Gradual,Progressive,Low,2,70,All Ages,Both,Dermatological,Infectious Disease,Mild,Very Low,Rare,Acute
+fungal infection of the skin,Very Common,1,14,60,Chronic,Gradual,Relapsing,Low,0,90,All Ages,Both,Dermatological,Infectious Disease,Moderate,Low,Sometimes,Chronic
+g6pd enzyme deficiency,Common,0.75,3650,25550,Chronic,Sudden,Relapsing,Moderate,0,90,All Ages,Male,Hematological,None,Mild,Very Low,Rare,Chronic
+galactorrhea of unknown cause,Rare,0.35,30,365,Chronic,Gradual,Chronic Stable,Low,18,50,Young Adult,Female,Endocrine,Reproductive,Moderate,Low,Sometimes,Chronic
+gallstone,Common,0.75,1,3650,Chronic,Sudden,Relapsing,Moderate,25,85,Middle Aged,Slightly Female,Gastrointestinal,None,Mild,Very Low,Rare,Chronic
+ganglion cyst,Common,0.75,30,1825,Chronic,Gradual,Relapsing,Low,15,50,Young Adult,Slightly Female,Musculoskeletal,Dermatological,Severe,High,Almost Always,Acute
+gas gangrene,Very Rare,0.15,1,3,Very Acute,Sudden,Progressive,Emergency,0,90,All Ages,Both,Infectious Disease,Musculoskeletal,Mild to Moderate,Very Low,Rare,Chronic
+gastritis,Common,0.75,3,30,Chronic,Sudden,Relapsing,Moderate,15,90,All Ages,Both,Gastrointestinal,None,Moderate,Low,Sometimes,Chronic
+gastroduodenal ulcer,Common,0.75,14,90,Chronic,Gradual,Relapsing,Moderate,20,85,Middle Aged,Both,Gastrointestinal,None,Mild to Moderate,Very Low,Rare,Chronic
+gastroesophageal reflux disease (gerd),Very Common,1,30,10950,Chronic,Gradual,Relapsing,Moderate,15,90,Middle Aged,Both,Gastrointestinal,Respiratory,Severe,Moderate,Almost Always,Acute
+gastrointestinal hemorrhage,Common,0.75,1,7,Acute,Sudden,Progressive,Emergency,20,95,Middle Aged,Both,Gastrointestinal,Cardiovascular,Moderate,Very Low,Sometimes,Chronic
+gastroparesis,Rare,0.35,90,3650,Chronic,Insidious,Progressive,Moderate,20,80,Middle Aged,Slightly Female,Gastrointestinal,Neurological,Mild,Very Low,Rare,Relapsing-Remitting
+genital herpes,Very Common,1,7,10950,Chronic,Sudden,Relapsing,Moderate,16,60,Young Adult,Both,Reproductive,Infectious Disease,Moderate,Low,Sometimes,Acute
+gestational diabetes,Common,0.75,90,180,Chronic,Gradual,Self-limiting,Moderate,18,45,Young Adult,Female,Endocrine,Reproductive,Moderate to Severe,Very Low,Rare,Chronic Progressive
+glaucoma,Common,0.75,365,10950,Chronic,Insidious,Progressive,Moderate,40,95,Elderly,Both,Ophthalmological,None,Severe,Moderate,Often,Chronic
+glucocorticoid deficiency,Rare,0.35,30,10950,Chronic,Insidious,Progressive,High,0,80,All Ages,Both,Endocrine,Multisystem,Mild to Moderate,Very Low,Rare,Chronic
+goiter,Common,0.75,365,7300,Chronic,Insidious,Progressive,Moderate,15,75,Middle Aged,Slightly Female,Endocrine,ENT,Mild to Moderate,Very Low,Rare,Acute
+gonorrhea,Common,0.75,7,30,Chronic,Sudden,Progressive,Moderate,16,50,Young Adult,Both,Infectious Disease,Reproductive,Moderate,Very Low,Rare,Relapsing-Remitting
+gout,Common,0.75,3,14,Subacute,Sudden,Relapsing,Moderate,30,90,Middle Aged,Male,Musculoskeletal,Endocrine,Moderate,Very Low,Rare,Chronic
+granuloma inguinale,Very Rare,0.15,14,90,Chronic,Gradual,Progressive,Moderate,18,50,Young Adult,Both,Infectious Disease,Reproductive,Moderate,Low,Sometimes,Chronic
+graves disease,Common,0.75,365,10950,Chronic,Insidious,Progressive,Moderate,20,60,Young Adult,Female,Endocrine,Ophthalmological,Severe,Moderate,Almost Always,Acute
+guillain barre syndrome,Very Rare,0.15,14,365,Chronic,Sudden,Progressive,Emergency,0,90,All Ages,Both,Neurological,Autoimmune,Mild,Very Low,Rare,Chronic
+gum disease,Very Common,1,365,10950,Chronic,Insidious,Progressive,Low,12,90,All Ages,Both,ENT,Infectious Disease,Mild,Very Low,Rare,Chronic
+gynecomastia,Common,0.75,180,3650,Chronic,Gradual,Chronic Stable,Low,13,85,Adolescent,Male,Reproductive,Endocrine,Mild,Very Low,Rare,Chronic
+hammer toe,Common,0.75,365,10950,Chronic,Gradual,Progressive,Low,40,90,Elderly,Slightly Female,Musculoskeletal,None,Mild to Moderate,Very Low,Rare,Chronic
+hashimoto thyroiditis,Common,0.75,365,10950,Chronic,Insidious,Progressive,Moderate,30,70,Middle Aged,Female,Endocrine,Autoimmune,Severe,Moderate,Often,Chronic Progressive
+head and neck cancer,Common,0.75,180,1825,Chronic,Gradual,Progressive,High,45,90,Elderly,Slightly Male,ENT,Respiratory,Moderate to Severe,Moderate,Often,Acute
+head injury,Common,0.75,1,365,Chronic,Sudden,Self-limiting,High,0,90,All Ages,Slightly Male,Neurological,Musculoskeletal,Mild to Moderate,Very Low,Rare,Acute
+headache after lumbar puncture,Common,0.75,2,7,Acute,Sudden,Self-limiting,Moderate,18,60,Young Adult,Slightly Female,Neurological,None,Severe,High,Almost Always,Acute
+heart attack,Common,0.75,1,30,Chronic,Sudden,Progressive,Emergency,35,95,Elderly,Slightly Male,Cardiovascular,None,Moderate to Severe,Low,Often,Chronic
+heart block,Common,0.75,1,10950,Chronic,Sudden,Chronic Stable,High,40,95,Elderly,Both,Cardiovascular,Neurological,Moderate to Severe,Low,Often,Acute
+heart contusion,Rare,0.35,7,30,Chronic,Sudden,Self-limiting,High,0,90,All Ages,Slightly Male,Cardiovascular,Musculoskeletal,Severe,Moderate,Often,Chronic Progressive
+heart failure,Common,0.75,365,7300,Chronic,Insidious,Progressive,High,40,95,Elderly,Both,Cardiovascular,Respiratory,Moderate,Low,Sometimes,Acute
+heat exhaustion,Common,0.75,1,2,Very Acute,Sudden,Self-limiting,High,0,90,All Ages,Both,Multisystem,Cardiovascular,Severe,Moderate,Almost Always,Acute
+heat stroke,Rare,0.35,1,3,Very Acute,Sudden,Progressive,Emergency,0,95,All Ages,Both,Multisystem,Neurological,Mild,Very Low,Rare,Chronic
+hemangioma,Common,0.75,365,25550,Chronic,Sudden,Self-limiting,Low,0,10,Infant,Slightly Female,Cardiovascular,Dermatological,Moderate,Very Low,Sometimes,Acute
+hemarthrosis,Rare,0.35,1,14,Subacute,Sudden,Progressive,High,0,80,All Ages,Slightly Male,Musculoskeletal,Hematological,Mild to Moderate,Very Low,Rare,Acute
+hematoma,Common,0.75,7,30,Chronic,Sudden,Self-limiting,Moderate,0,95,All Ages,Both,Cardiovascular,Dermatological,Severe,Low,Often,Chronic
+hemiplegia,Rare,0.35,365,25550,Chronic,Sudden,Chronic Stable,Moderate,0,95,All Ages,Both,Neurological,Musculoskeletal,Moderate,Low,Rare,Chronic Progressive
+hemochromatosis,Rare,0.35,3650,18250,Chronic,Insidious,Progressive,Moderate,40,75,Middle Aged,Slightly Male,Multisystem,Hematological,Moderate to Severe,Low,Often,Chronic
+hemolytic anemia,Rare,0.35,7,365,Chronic,Sudden,Progressive,High,0,85,All Ages,Both,Hematological,Autoimmune,Moderate to Severe,Low,Sometimes,Chronic
+hemophilia,Rare,0.35,3650,25550,Chronic,Sudden,Chronic Stable,High,0,70,Child,Male,Hematological,Musculoskeletal,Mild to Moderate,Very Low,Rare,Chronic
+hemorrhoids,Very Common,1,7,3650,Chronic,Gradual,Relapsing,Low,20,90,Middle Aged,Both,Gastrointestinal,Cardiovascular,Severe,Moderate,Almost Always,Chronic
+hepatic encephalopathy,Rare,0.35,1,30,Chronic,Sudden,Progressive,Emergency,35,85,Middle Aged,Slightly Male,Neurological,Gastrointestinal,Moderate to Severe,Moderate,Often,Acute
+hepatitis due to a toxin,Rare,0.35,7,90,Chronic,Sudden,Progressive,Emergency,0,90,All Ages,Both,Gastrointestinal,Multisystem,Moderate,Very Low,Rare,Chronic
+herniated disk,Common,0.75,30,3650,Chronic,Sudden,Relapsing,Moderate,25,80,Middle Aged,Slightly Male,Musculoskeletal,Neurological,Mild,Very Low,Rare,Acute Self-Limiting
+herpangina,Common,0.75,5,10,Acute,Sudden,Self-limiting,Moderate,0,10,Child,Both,ENT,Infectious Disease,Mild to Moderate,Very Low,Rare,Chronic
+hiatal hernia,Common,0.75,365,10950,Chronic,Insidious,Chronic Stable,Low,40,95,Elderly,Both,Gastrointestinal,Respiratory,Moderate,Very Low,Rare,Chronic
+hidradenitis suppurativa,Rare,0.35,30,10950,Chronic,Gradual,Relapsing,Moderate,15,45,Young Adult,Slightly Female,Dermatological,Infectious Disease,Moderate,Low,Rare,Chronic
+high blood pressure,Very Common,1,365,14600,Chronic,Insidious,Progressive,High,20,95,Middle Aged,Both,Cardiovascular,Genitourinary,Moderate to Severe,Low,Almost Always,Chronic
+hirschsprung disease,Very Rare,0.15,3650,21900,Chronic,Sudden,Chronic Stable,Moderate,0,5,Infant,Slightly Male,Gastrointestinal,Neurological,Mild,Very Low,Rare,Chronic
+hirsutism,Common,0.75,365,10950,Chronic,Insidious,Chronic Stable,Low,15,50,Young Adult,Female,Endocrine,Dermatological,Moderate,Low,Sometimes,Subacute
+histoplasmosis,Rare,0.35,14,90,Chronic,Gradual,Self-limiting,Moderate,0,85,All Ages,Both,Infectious Disease,Respiratory,Mild to Moderate,Very Low,Rare,Chronic
+hormone disorder,Common,0.75,365,10950,Chronic,Insidious,Progressive,Moderate,0,90,All Ages,Slightly Female,Endocrine,None,Mild,Very Low,Rare,Chronic
+hpv,Very Common,1,30,10950,Chronic,Insidious,Relapsing,Low,16,60,Young Adult,Both,Infectious Disease,Reproductive,Moderate to Severe,Low,Sometimes,Chronic
+human immunodeficiency virus infection (hiv),Common,0.75,3650,14600,Chronic,Insidious,Progressive,High,0,80,Young Adult,Slightly Male,Infectious Disease,Multisystem,Severe,Low,Rare,Chronic Progressive
+huntington disease,Very Rare,0.15,3650,7300,Chronic,Insidious,Progressive,Moderate,35,55,Middle Aged,Both,Neurological,Psychiatric,Moderate to Severe,Low,Often,Acute
+hydatidiform mole,Very Rare,0.15,30,180,Chronic,Sudden,Progressive,High,15,50,Young Adult,Female,Reproductive,None,Mild,Very Low,Rare,Chronic
+hydrocele of the testicle,Common,0.75,180,10950,Chronic,Gradual,Chronic Stable,Low,0,90,All Ages,Male,Reproductive,Genitourinary,Severe,Low,Often,Chronic
+hydrocephalus,Rare,0.35,30,10950,Chronic,Gradual,Progressive,High,0,85,All Ages,Both,Neurological,None,Moderate,Low,Sometimes,Chronic
+hydronephrosis,Common,0.75,30,3650,Chronic,Gradual,Progressive,Moderate,0,90,All Ages,Both,Genitourinary,None,Moderate to Severe,Low,Often,Acute
+hypercalcemia,Common,0.75,7,90,Chronic,Gradual,Progressive,High,20,90,Middle Aged,Both,Endocrine,Multisystem,Moderate,Low,Rare,Chronic
+hypercholesterolemia,Very Common,1,365,14600,Chronic,Insidious,Chronic Stable,High,20,95,Middle Aged,Both,Cardiovascular,Endocrine,Moderate,Very Low,Often,Acute
+hyperemesis gravidarum,Rare,0.35,60,120,Chronic,Sudden,Self-limiting,High,18,45,Young Adult,Female,Reproductive,Gastrointestinal,Moderate,Low,Rare,Chronic
+hypergammaglobulinemia,Rare,0.35,365,10950,Chronic,Insidious,Chronic Stable,Moderate,10,85,All Ages,Both,Hematological,Autoimmune,Mild,Very Low,Rare,Chronic
+hyperhidrosis,Common,0.75,365,18250,Chronic,Gradual,Chronic Stable,Low,13,50,Young Adult,Both,Dermatological,Neurological,Severe,Moderate,Almost Always,Acute
+hyperkalemia,Common,0.75,1,3,Very Acute,Sudden,Progressive,Emergency,30,95,Middle Aged,Both,Endocrine,Cardiovascular,Moderate,Low,Rare,Chronic
+hyperlipidemia,Very Common,1,365,14600,Chronic,Insidious,Chronic Stable,High,20,95,Middle Aged,Both,Cardiovascular,Endocrine,Severe,Moderate,Almost Always,Acute
+hypernatremia,Common,0.75,1,3,Very Acute,Sudden,Progressive,Emergency,0,95,All Ages,Both,Endocrine,Neurological,Mild,Very Low,Rare,Chronic
+hyperopia,Common,0.75,3650,25550,Chronic,Insidious,Chronic Stable,Low,0,90,All Ages,Both,Ophthalmological,None,Severe,Moderate,Almost Always,Acute
+hyperosmotic hyperketotic state,Rare,0.35,1,3,Very Acute,Sudden,Progressive,Emergency,45,95,Elderly,Both,Endocrine,Multisystem,Moderate to Severe,Low,Often,Acute
+hypertension of pregnancy,Common,0.75,7,90,Chronic,Sudden,Progressive,Emergency,18,45,Young Adult,Female,Cardiovascular,Reproductive,Moderate to Severe,Low,Sometimes,Chronic Progressive
+hypertensive heart disease,Common,0.75,1095,14600,Chronic,Insidious,Progressive,High,40,95,Elderly,Both,Cardiovascular,None,Moderate to Severe,Low,Sometimes,Chronic Progressive
+hypertrophic obstructive cardiomyopathy (hocm),Rare,0.35,3650,18250,Chronic,Insidious,Progressive,High,10,60,Young Adult,Both,Cardiovascular,None,Moderate to Severe,Low,Often,Acute
+hypocalcemia,Common,0.75,1,7,Acute,Sudden,Progressive,High,0,95,All Ages,Both,Endocrine,Neurological,Moderate to Severe,Low,Sometimes,Acute
+hypoglycemia,Common,0.75,0,1,Very Acute,Sudden,Self-limiting,Emergency,0,95,All Ages,Both,Endocrine,Neurological,Moderate to Severe,Low,Often,Acute
+hypokalemia,Common,0.75,1,7,Acute,Sudden,Progressive,High,0,95,All Ages,Both,Endocrine,Cardiovascular,Severe,Moderate,Almost Always,Acute
+hyponatremia,Common,0.75,1,7,Acute,Sudden,Progressive,Emergency,0,95,All Ages,Both,Endocrine,Neurological,Severe,Moderate,Almost Always,Acute
+hypothermia,Common,0.75,0,1,Very Acute,Sudden,Self-limiting,Emergency,0,95,All Ages,Both,Multisystem,Cardiovascular,Mild to Moderate,Very Low,Rare,Chronic
+hypothyroidism,Common,0.75,365,14600,Chronic,Insidious,Chronic Stable,Moderate,15,90,Middle Aged,Female,Endocrine,Multisystem,Severe,Moderate,Almost Always,Acute
+hypovolemia,Common,0.75,0,1,Very Acute,Sudden,Progressive,Emergency,0,95,All Ages,Both,Cardiovascular,Multisystem,Mild,Very Low,Rare,Chronic
+idiopathic absence of menstruation,Common,0.75,90,3650,Chronic,Gradual,Chronic Stable,Moderate,13,45,Young Adult,Female,Reproductive,Endocrine,Mild to Moderate,Very Low,Rare,Chronic
+idiopathic excessive menstruation,Common,0.75,30,3650,Chronic,Sudden,Relapsing,Moderate,13,50,Young Adult,Female,Reproductive,Endocrine,Mild,Very Low,Rare,Chronic
+idiopathic infrequent menstruation,Common,0.75,90,3650,Chronic,Gradual,Relapsing,Moderate,13,50,Young Adult,Female,Reproductive,Endocrine,Mild,Very Low,Rare,Chronic
+idiopathic irregular menstrual cycle,Common,0.75,30,3650,Chronic,Gradual,Relapsing,Low,13,50,Young Adult,Female,Reproductive,Endocrine,Moderate,Very Low,Sometimes,Chronic
+idiopathic nonmenstrual bleeding,Common,0.75,1,30,Chronic,Sudden,Relapsing,Moderate,13,55,Young Adult,Female,Reproductive,Endocrine,Mild to Moderate,Very Low,Rare,Chronic
+idiopathic painful menstruation,Very Common,1,2,5,Acute,Sudden,Relapsing,Moderate,13,50,Adolescent,Female,Reproductive,None,Moderate to Severe,Low,Almost Always,Acute
+ileus,Common,0.75,1,7,Acute,Sudden,Progressive,High,0,95,All Ages,Both,Gastrointestinal,None,Mild,Very Low,Rare,Acute Self-Limiting
+impetigo,Common,0.75,7,14,Subacute,Sudden,Self-limiting,Moderate,0,12,Child,Both,Dermatological,Infectious Disease,Moderate,Very Low,Rare,Chronic
+impulse control disorder,Common,0.75,365,10950,Chronic,Gradual,Chronic Stable,Moderate,10,50,Young Adult,Slightly Male,Psychiatric,Neurological,Mild,Very Low,Rare,Acute Self-Limiting
+indigestion,Very Common,1,1,7,Acute,Sudden,Relapsing,Low,0,95,All Ages,Both,Gastrointestinal,None,Moderate,Low,Sometimes,Acute
+induced abortion,Common,0.75,1,14,Subacute,Sudden,Self-limiting,Moderate,15,45,Young Adult,Female,Reproductive,None,Mild to Moderate,Low,Sometimes,Acute
+infection of open wound,Common,0.75,3,14,Subacute,Sudden,Progressive,Moderate,0,95,All Ages,Both,Infectious Disease,Dermatological,Mild to Moderate,Low,Sometimes,Acute Self-Limiting
+infectious gastroenteritis,Very Common,1,3,7,Acute,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Infectious Disease,Gastrointestinal,Mild,Very Low,Rare,Chronic
+ingrown toe nail,Very Common,1,7,30,Chronic,Sudden,Relapsing,Low,12,80,Young Adult,Both,Dermatological,Musculoskeletal,Moderate,Low,Sometimes,Chronic
+inguinal hernia,Common,0.75,30,10950,Chronic,Gradual,Progressive,Moderate,0,95,All Ages,Male,Gastrointestinal,Musculoskeletal,Mild to Moderate,Very Low,Sometimes,Acute
+injury of the ankle,Very Common,1,7,30,Chronic,Sudden,Self-limiting,Moderate,5,85,All Ages,Both,Musculoskeletal,None,Severe,Moderate,Almost Always,Acute
+injury to internal organ,Common,0.75,1,90,Chronic,Sudden,Progressive,Emergency,0,90,All Ages,Slightly Male,Multisystem,None,Moderate to Severe,Low,Often,Acute
+injury to the abdomen,Common,0.75,1,30,Chronic,Sudden,Progressive,Emergency,0,90,All Ages,Slightly Male,Gastrointestinal,Musculoskeletal,Mild to Moderate,Very Low,Sometimes,Acute
+injury to the arm,Common,0.75,7,42,Chronic,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Musculoskeletal,None,Mild to Moderate,Very Low,Sometimes,Acute
+injury to the face,Common,0.75,3,21,Subacute,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Dermatological,Musculoskeletal,Mild,Very Low,Rare,Acute
+injury to the finger,Very Common,1,3,14,Subacute,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Musculoskeletal,None,Mild to Moderate,Very Low,Sometimes,Acute
+injury to the hand,Very Common,1,5,21,Subacute,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Musculoskeletal,None,Moderate,Very Low,Often,Acute
+injury to the hip,Common,0.75,14,60,Chronic,Sudden,Self-limiting,Moderate,10,95,All Ages,Both,Musculoskeletal,None,Moderate,Very Low,Sometimes,Acute
+injury to the knee,Very Common,1,14,90,Chronic,Sudden,Self-limiting,Moderate,5,90,All Ages,Both,Musculoskeletal,None,Moderate,Very Low,Sometimes,Acute
+injury to the leg,Common,0.75,14,60,Chronic,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Musculoskeletal,None,Moderate,Very Low,Sometimes,Acute
+injury to the shoulder,Common,0.75,14,60,Chronic,Sudden,Self-limiting,Moderate,5,90,All Ages,Both,Musculoskeletal,None,Severe,Moderate,Almost Always,Acute
+injury to the spinal cord,Rare,0.35,365,18250,Chronic,Sudden,Chronic Stable,Emergency,5,90,Young Adult,Slightly Male,Neurological,Musculoskeletal,Moderate to Severe,Low,Often,Acute
+injury to the trunk,Common,0.75,7,42,Chronic,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Musculoskeletal,Multisystem,Mild,Very Low,Rare,Acute Self-Limiting
+insect bite,Very Common,1,1,7,Acute,Sudden,Self-limiting,Low,0,95,All Ages,Both,Dermatological,Multisystem,Severe,Moderate,Almost Always,Acute
+insulin overdose,Rare,0.35,0,1,Very Acute,Sudden,Self-limiting,Emergency,1,90,All Ages,Both,Endocrine,Neurological,Moderate to Severe,Low,Sometimes,Chronic Progressive
+interstitial lung disease,Rare,0.35,365,7300,Chronic,Insidious,Progressive,High,40,85,Middle Aged,Both,Respiratory,Autoimmune,Mild,Very Low,Rare,Acute
+intertrigo (skin condition),Common,0.75,7,30,Chronic,Sudden,Relapsing,Low,0,95,All Ages,Both,Dermatological,Infectious Disease,Severe,Moderate,Often,Chronic Progressive
+intestinal cancer,Common,0.75,180,1825,Chronic,Insidious,Progressive,High,45,90,Elderly,Both,Gastrointestinal,None,Mild to Moderate,Low,Sometimes,Chronic
+intestinal disease,Common,0.75,30,10950,Chronic,Gradual,Chronic Stable,Moderate,0,95,All Ages,Both,Gastrointestinal,None,Moderate,Low,Rare,Chronic
+intestinal malabsorption,Common,0.75,90,10950,Chronic,Insidious,Progressive,Moderate,0,90,All Ages,Both,Gastrointestinal,Endocrine,Severe,Moderate,Almost Always,Acute
+intestinal obstruction,Common,0.75,1,7,Acute,Sudden,Progressive,Emergency,0,95,All Ages,Both,Gastrointestinal,None,Severe,High,Almost Always,Acute
+intracerebral hemorrhage,Rare,0.35,1,90,Chronic,Sudden,Progressive,Emergency,40,95,Elderly,Both,Neurological,Cardiovascular,Severe,Moderate,Almost Always,Subacute
+intracranial abscess,Very Rare,0.15,14,60,Chronic,Sudden,Progressive,Emergency,0,80,All Ages,Both,Neurological,Infectious Disease,Severe,High,Almost Always,Acute
+intracranial hemorrhage,Rare,0.35,1,90,Chronic,Sudden,Progressive,Emergency,0,95,All Ages,Both,Neurological,Cardiovascular,Severe,Low,Almost Always,Acute
+intussusception,Rare,0.35,1,3,Very Acute,Sudden,Progressive,Emergency,0,3,Infant,Slightly Male,Gastrointestinal,None,Moderate,Very Low,Rare,Chronic
+iridocyclitis,Rare,0.35,7,30,Chronic,Sudden,Relapsing,High,20,60,Young Adult,Both,Ophthalmological,Autoimmune,Mild to Moderate,Very Low,Rare,Chronic
+iron deficiency anemia,Very Common,1,90,365,Chronic,Insidious,Progressive,Moderate,0,90,All Ages,Female,Hematological,None,Mild to Moderate,Very Low,Rare,Chronic
+irritable bowel syndrome,Very Common,1,365,18250,Chronic,Gradual,Relapsing,Moderate,18,55,Young Adult,Slightly Female,Gastrointestinal,Psychiatric,Severe,High,Almost Always,Acute
+ischemia of the bowel,Very Common,1,1,2,Very Acute,Sudden,Progressive,Emergency,50,95,Elderly,Both,Cardiovascular,Gastrointestinal,Moderate to Severe,Low,Sometimes,Chronic Progressive
+ischemic heart disease,Very Common,1,365,10950,Chronic,Insidious,Progressive,High,35,95,Middle Aged,Slightly Male,Cardiovascular,None,Mild,Very Low,Rare,Chronic
+itching of unknown cause,Common,0.75,7,90,Chronic,Sudden,Relapsing,Low,0,95,All Ages,Both,Dermatological,None,Mild to Moderate,Very Low,Rare,Chronic
+jaw disorder,Common,0.75,30,1825,Chronic,Gradual,Relapsing,Low,15,70,Young Adult,Both,Musculoskeletal,ENT,Mild to Moderate,Very Low,Sometimes,Acute
+joint effusion,Common,0.75,3,30,Chronic,Sudden,Relapsing,Moderate,5,90,All Ages,Both,Musculoskeletal,None,Moderate,Very Low,Rare,Chronic
+juvenile rheumatoid arthritis,Rare,0.35,365,7300,Chronic,Insidious,Relapsing,Moderate,2,16,Child,Slightly Female,Musculoskeletal,Autoimmune,Moderate to Severe,Low,Sometimes,Chronic Progressive
+kaposi sarcoma,Rare,0.35,365,1825,Chronic,Gradual,Progressive,High,20,80,Young Adult,Male,Dermatological,Infectious Disease,Severe,Moderate,Often,Chronic Progressive
+kidney cancer,Common,0.75,180,1825,Chronic,Insidious,Progressive,High,50,90,Elderly,Slightly Male,Genitourinary,None,Moderate to Severe,Low,Sometimes,Chronic Progressive
+kidney disease due to longstanding hypertension,Common,0.75,1095,14600,Chronic,Insidious,Progressive,High,40,95,Elderly,Both,Genitourinary,Cardiovascular,Severe,Moderate,Often,Chronic
+kidney failure,Common,0.75,30,10950,Chronic,Gradual,Progressive,High,10,95,Middle Aged,Both,Genitourinary,Multisystem,Moderate,Very Low,Sometimes,Acute
+kidney stone,Common,0.75,1,14,Subacute,Sudden,Relapsing,High,20,75,Middle Aged,Slightly Male,Genitourinary,None,Moderate,Very Low,Often,Acute
+knee ligament or meniscus tear,Common,0.75,30,365,Chronic,Sudden,Self-limiting,Moderate,15,60,Young Adult,Slightly Male,Musculoskeletal,None,Moderate,Very Low,Rare,Acute Self-Limiting
+labyrinthitis,Common,0.75,7,21,Subacute,Sudden,Self-limiting,Moderate,20,70,Middle Aged,Both,ENT,Neurological,Mild,Very Low,Rare,Chronic
+lactose intolerance,Very Common,1,3650,25550,Chronic,Sudden,Chronic Stable,Low,2,80,All Ages,Both,Gastrointestinal,Endocrine,Mild,Very Low,Rare,Acute Self-Limiting
+laryngitis,Common,0.75,3,10,Acute,Sudden,Self-limiting,Low,0,90,All Ages,Both,ENT,Respiratory,Mild,Very Low,Rare,Chronic
+lateral epicondylitis (tennis elbow),Common,0.75,30,180,Chronic,Gradual,Self-limiting,Low,30,60,Middle Aged,Both,Musculoskeletal,None,Severe,Moderate,Often,Chronic Progressive
+leukemia,Common,0.75,90,1825,Chronic,Gradual,Progressive,High,0,90,All Ages,Both,Hematological,None,Severe,Very Low,Rare,Chronic Progressive
+lewy body dementia,Rare,0.35,730,3650,Chronic,Insidious,Progressive,Moderate,60,95,Elderly,Slightly Male,Neurological,Psychiatric,Mild,Very Low,Rare,Acute Self-Limiting
+lice,Very Common,1,7,21,Subacute,Sudden,Self-limiting,Low,2,60,Child,Both,Dermatological,Infectious Disease,Mild to Moderate,Very Low,Rare,Chronic
+lichen planus,Rare,0.35,60,730,Chronic,Gradual,Self-limiting,Low,30,70,Middle Aged,Both,Dermatological,Autoimmune,Mild,Very Low,Rare,Chronic
+lichen simplex,Rare,0.35,90,1825,Chronic,Gradual,Chronic Stable,Low,30,75,Middle Aged,Both,Dermatological,Psychiatric,Mild,Very Low,Rare,Chronic
+lipoma,Very Common,1,365,10950,Chronic,Insidious,Chronic Stable,Low,45,90,Elderly,Slightly Male,Dermatological,Musculoskeletal,Severe,High,Often,Chronic Progressive
+liver cancer,Common,0.75,90,1095,Chronic,Insidious,Progressive,High,0,95,All Ages,Both,Gastrointestinal,None,Moderate,Low,Sometimes,Chronic
+liver disease,Common,0.75,365,10950,Chronic,Insidious,Progressive,High,20,85,Middle Aged,Both,Gastrointestinal,None,Mild to Moderate,Very Low,Rare,Acute
+lumbago,Very Common,1,3,30,Chronic,Sudden,Relapsing,Moderate,45,90,Elderly,Slightly Male,Musculoskeletal,None,Severe,High,Often,Chronic Progressive
+lung cancer,Common,0.75,180,1095,Chronic,Insidious,Progressive,High,0,90,All Ages,Both,Respiratory,None,Moderate to Severe,Low,Often,Acute
+lung contusion,Common,0.75,7,21,Subacute,Sudden,Self-limiting,High,5,80,All Ages,Both,Respiratory,Musculoskeletal,Moderate,Low,Sometimes,Subacute
+lyme disease,Common,0.75,14,365,Chronic,Sudden,Progressive,Moderate,0,90,All Ages,Both,Infectious Disease,Musculoskeletal,Mild to Moderate,Very Low,Rare,Acute
+lymphadenitis,Common,0.75,7,21,Subacute,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Hematological,Infectious Disease,Moderate,Low,Sometimes,Acute
+lymphangitis,Rare,0.35,3,10,Acute,Sudden,Progressive,High,15,90,All Ages,Both,Cardiovascular,Infectious Disease,Moderate,Very Low,Rare,Chronic Progressive
+lymphedema,Common,0.75,365,10950,Chronic,Gradual,Progressive,Moderate,18,50,Young Adult,Both,Cardiovascular,Dermatological,Moderate,Very Low,Rare,Subacute
+lymphogranuloma venereum,Rare,0.35,14,60,Chronic,Sudden,Progressive,Moderate,5,90,All Ages,Both,Infectious Disease,Reproductive,Severe,Moderate,Often,Chronic Progressive
+lymphoma,Common,0.75,180,3650,Chronic,Gradual,Progressive,High,55,95,Elderly,Both,Hematological,None,Moderate,Very Low,Rare,Chronic Progressive
+macular degeneration,Common,0.75,365,7300,Chronic,Insidious,Progressive,High,10,95,All Ages,Both,Ophthalmological,None,Mild to Moderate,Very Low,Rare,Chronic
+magnesium deficiency,Common,0.75,30,180,Chronic,Insidious,Progressive,Moderate,0,90,All Ages,Both,Endocrine,Musculoskeletal,Moderate to Severe,Low,Often,Acute Self-Limiting
+malaria,Common,0.75,7,14,Subacute,Sudden,Relapsing,High,15,80,Young Adult,Male,Infectious Disease,Hematological,Mild to Moderate,Very Low,Rare,Acute
+male genitalia infection,Common,0.75,3,14,Subacute,Sudden,Progressive,Moderate,30,70,Middle Aged,Both,Reproductive,Infectious Disease,Severe,Moderate,Almost Always,Acute
+malignant hypertension,Common,0.75,1,3,Very Acute,Sudden,Progressive,Emergency,15,45,Young Adult,Slightly Male,Cardiovascular,Genitourinary,Mild to Moderate,Very Low,Rare,Chronic
+marijuana abuse,Common,0.75,365,10950,Chronic,Insidious,Progressive,Moderate,25,85,Middle Aged,Female,Psychiatric,Neurological,Moderate,Very Low,Almost Always,Acute
+mastectomy,Common,0.75,30,365,Chronic,Sudden,Self-limiting,High,0,20,Child,Both,Reproductive,None,Moderate to Severe,Low,Often,Acute
+mastoiditis,Common,0.75,7,21,Subacute,Sudden,Progressive,High,0,10,Child,Slightly Male,ENT,Infectious Disease,Moderate,Low,Sometimes,Chronic
+meckel diverticulum,Rare,0.35,1,3650,Chronic,Sudden,Relapsing,High,30,90,Middle Aged,Both,Gastrointestinal,None,Severe,Moderate,Often,Chronic Progressive
+melanoma,Common,0.75,180,1825,Chronic,Gradual,Progressive,High,40,70,Middle Aged,Both,Dermatological,None,Moderate,Very Low,Rare,Relapsing-Remitting
+meniere disease,Common,0.75,1,10950,Chronic,Sudden,Relapsing,Moderate,40,85,Elderly,Slightly Female,ENT,Neurological,Moderate to Severe,Low,Sometimes,Chronic Progressive
+meningioma,Rare,0.35,365,7300,Chronic,Insidious,Progressive,Moderate,0,90,All Ages,Both,Neurological,None,Severe,Moderate,Almost Always,Acute
+meningitis,Common,0.75,3,14,Subacute,Sudden,Progressive,Emergency,45,55,Middle Aged,Female,Infectious Disease,Neurological,Mild,Very Low,Rare,Chronic
+menopause,Very Common,1,365,3650,Chronic,Insidious,Self-limiting,Low,0,95,All Ages,Both,Reproductive,Endocrine,Moderate,Low,Sometimes,Chronic
+metabolic disorder,Common,0.75,365,25550,Chronic,Insidious,Chronic Stable,Moderate,30,95,Middle Aged,Both,Endocrine,Multisystem,Severe,High,Almost Always,Chronic Progressive
+metastatic cancer,Common,0.75,30,1095,Chronic,Gradual,Progressive,High,15,55,Young Adult,Slightly Female,Multisystem,None,Moderate,Very Low,Rare,Relapsing-Remitting
+migraine,Very Common,1,1,3,Very Acute,Sudden,Relapsing,Moderate,15,45,Young Adult,Female,Neurological,None,Moderate,Low,Almost Always,Acute
+missed abortion,Common,0.75,1,14,Subacute,Sudden,Progressive,High,15,90,Middle Aged,Both,Reproductive,None,Moderate,Low,Sometimes,Chronic Progressive
+mitral valve disease,Common,0.75,365,10950,Chronic,Insidious,Progressive,High,15,45,Young Adult,Female,Cardiovascular,None,Mild,Very Low,Rare,Relapsing-Remitting
+mittelschmerz,Common,0.75,1,2,Very Acute,Sudden,Relapsing,Low,2,30,Child,Both,Reproductive,None,Mild,Very Low,Rare,Acute Self-Limiting
+molluscum contagiosum,Common,0.75,60,365,Chronic,Gradual,Self-limiting,Low,20,85,Middle Aged,Both,Dermatological,Infectious Disease,Moderate,Very Low,Rare,Subacute
+mononeuritis,Common,0.75,30,365,Chronic,Sudden,Relapsing,Moderate,13,30,Adolescent,Both,Neurological,None,Mild to Moderate,Very Low,Rare,Acute Self-Limiting
+mononucleosis,Common,0.75,14,60,Chronic,Gradual,Self-limiting,Moderate,5,50,Child,Slightly Female,Infectious Disease,Hematological,Severe,Low,Often,Chronic Progressive
+moyamoya disease,Very Rare,0.15,365,10950,Chronic,Insidious,Progressive,High,5,90,All Ages,Both,Neurological,Cardiovascular,Moderate,Very Low,Rare,Acute
+mucositis,Common,0.75,7,21,Subacute,Sudden,Self-limiting,Moderate,50,95,Elderly,Both,ENT,Gastrointestinal,Severe,Moderate,Often,Chronic Progressive
+multiple myeloma,Rare,0.35,365,1825,Chronic,Insidious,Progressive,High,20,50,Young Adult,Female,Hematological,Musculoskeletal,Severe,Low,Sometimes,Relapsing-Remitting
+multiple sclerosis,Common,0.75,365,14600,Chronic,Insidious,Relapsing,Moderate,2,20,Child,Both,Neurological,Autoimmune,Mild to Moderate,Very Low,Rare,Acute Self-Limiting
+mumps,Common,0.75,14,21,Subacute,Sudden,Self-limiting,Moderate,10,95,All Ages,Both,Infectious Disease,ENT,Mild,Very Low,Rare,Acute
+muscle spasm,Very Common,1,1,7,Acute,Sudden,Relapsing,Low,2,50,Child,Male,Musculoskeletal,Neurological,Severe,Low,Rare,Chronic Progressive
+muscular dystrophy,Common,0.75,3650,18250,Chronic,Insidious,Progressive,Moderate,20,80,Young Adult,Slightly Female,Musculoskeletal,Neurological,Moderate to Severe,Low,Sometimes,Chronic
+myasthenia gravis,Rare,0.35,365,14600,Chronic,Insidious,Relapsing,Moderate,60,95,Elderly,Slightly Male,Neurological,Autoimmune,Severe,Moderate,Often,Chronic Progressive
+myelodysplastic syndrome,Common,0.75,365,3650,Chronic,Insidious,Progressive,High,0,80,All Ages,Both,Hematological,None,Moderate to Severe,Low,Often,Acute
+myocarditis,Common,0.75,7,90,Chronic,Sudden,Progressive,High,0,95,All Ages,Both,Cardiovascular,Infectious Disease,Moderate,Very Low,Rare,Chronic
+myoclonus,Common,0.75,1,10950,Chronic,Sudden,Relapsing,Moderate,5,90,All Ages,Both,Neurological,None,Mild,Very Low,Rare,Chronic
+myopia,Very Common,1,3650,25550,Chronic,Insidious,Chronic Stable,Low,5,80,All Ages,Both,Ophthalmological,None,Moderate,Very Low,Rare,Chronic
+myositis,Common,0.75,30,365,Chronic,Gradual,Relapsing,Moderate,15,40,Young Adult,Both,Musculoskeletal,Autoimmune,Moderate,Very Low,Rare,Chronic
+narcolepsy,Rare,0.35,365,18250,Chronic,Insidious,Chronic Stable,Moderate,20,80,Middle Aged,Slightly Male,Neurological,Psychiatric,Mild to Moderate,Very Low,Rare,Chronic Progressive
+nasal polyp,Common,0.75,365,7300,Chronic,Insidious,Progressive,Low,20,90,All Ages,Both,ENT,Respiratory,Severe,High,Almost Always,Acute
+necrotizing fasciitis,Very Rare,0.15,1,3,Very Acute,Sudden,Progressive,Emergency,0,0,Infant,Both,Infectious Disease,Dermatological,Moderate,Low,Often,Acute Self-Limiting
+neonatal jaundice,Very Common,1,3,14,Subacute,Sudden,Self-limiting,Moderate,25,80,Middle Aged,Both,Gastrointestinal,Hematological,Moderate,Very Low,Rare,Chronic
+nerve impingement near the shoulder,Common,0.75,14,180,Chronic,Sudden,Relapsing,Moderate,20,95,Middle Aged,Both,Neurological,Musculoskeletal,Moderate,Very Low,Rare,Chronic
+neuralgia,Common,0.75,30,3650,Chronic,Sudden,Relapsing,Moderate,0,40,Child,Both,Neurological,None,Moderate,Very Low,Rare,Chronic Progressive
+neurofibromatosis,Rare,0.35,3650,25550,Chronic,Insidious,Progressive,Moderate,18,90,All Ages,Both,Neurological,Dermatological,Moderate,Very Low,Rare,Subacute
+neuropathy due to drugs,Common,0.75,30,365,Chronic,Gradual,Chronic Stable,Moderate,18,70,Young Adult,Slightly Female,Neurological,Multisystem,Moderate,Very Low,Rare,Chronic
+neurosis,Common,0.75,365,18250,Chronic,Gradual,Chronic Stable,Moderate,25,80,Middle Aged,Both,Psychiatric,None,Moderate,Low,Rare,Chronic Progressive
+nonalcoholic liver disease (nash),Common,0.75,365,10950,Chronic,Insidious,Progressive,Moderate,0,90,All Ages,Both,Gastrointestinal,Endocrine,Mild to Moderate,Low,Sometimes,Acute Self-Limiting
+noninfectious gastroenteritis,Common,0.75,1,5,Acute,Sudden,Self-limiting,Low,60,95,Elderly,Both,Gastrointestinal,None,Moderate to Severe,Very Low,Sometimes,Chronic Progressive
+normal pressure hydrocephalus,Common,0.75,365,3650,Chronic,Insidious,Progressive,Moderate,0,90,All Ages,Both,Neurological,None,Mild,Very Low,Rare,Chronic
+nose disorder,Common,0.75,30,10950,Chronic,Gradual,Chronic Stable,Low,2,90,All Ages,Both,ENT,None,Moderate,Low,Rare,Chronic
+obesity,Very Common,1,365,18250,Chronic,Insidious,Progressive,Moderate,10,45,Young Adult,Both,Endocrine,Cardiovascular,Moderate,Very Low,Rare,Chronic
+obsessive compulsive disorder (ocd),Common,0.75,365,18250,Chronic,Gradual,Relapsing,Moderate,30,85,Middle Aged,Slightly Male,Psychiatric,Neurological,Moderate,Low,Rare,Chronic
+obstructive sleep apnea (osa),Very Common,1,365,14600,Chronic,Insidious,Progressive,High,0,0,Infant,Both,Respiratory,Neurological,Moderate,Low,Often,Acute
+omphalitis,Common,0.75,3,10,Acute,Sudden,Progressive,High,20,90,Middle Aged,Both,Infectious Disease,Dermatological,Mild,Very Low,Rare,Chronic
+onychomycosis,Very Common,1,90,730,Chronic,Gradual,Relapsing,Low,0,90,All Ages,Slightly Male,Dermatological,Infectious Disease,Moderate,Low,Sometimes,Acute
+open wound due to trauma,Common,0.75,1,30,Chronic,Sudden,Self-limiting,High,0,90,All Ages,Both,Dermatological,Musculoskeletal,Moderate,Low,Sometimes,Acute
+open wound from surgical incision,Common,0.75,14,30,Chronic,Sudden,Self-limiting,Moderate,0,90,All Ages,Slightly Male,Dermatological,None,Severe,Moderate,Almost Always,Acute
+open wound of the abdomen,Common,0.75,1,60,Chronic,Sudden,Progressive,Emergency,0,90,All Ages,Slightly Male,Dermatological,Gastrointestinal,Mild to Moderate,Low,Sometimes,Acute
+open wound of the arm,Common,0.75,7,30,Chronic,Sudden,Self-limiting,Moderate,0,90,All Ages,Slightly Male,Dermatological,Musculoskeletal,Moderate,Low,Sometimes,Acute
+open wound of the back,Common,0.75,7,30,Chronic,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Dermatological,Musculoskeletal,Mild to Moderate,Very Low,Sometimes,Acute
+open wound of the cheek,Common,0.75,3,14,Subacute,Sudden,Self-limiting,Moderate,0,90,All Ages,Slightly Male,Dermatological,ENT,Severe,Moderate,Almost Always,Acute
+open wound of the chest,Common,0.75,1,60,Chronic,Sudden,Progressive,Emergency,0,90,All Ages,Both,Dermatological,Respiratory,Mild to Moderate,Very Low,Sometimes,Acute
+open wound of the ear,Common,0.75,3,14,Subacute,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Dermatological,ENT,Severe,Very Low,Often,Acute
+open wound of the eye,Common,0.75,1,14,Subacute,Sudden,Progressive,Emergency,0,90,All Ages,Both,Dermatological,Ophthalmological,Moderate,Low,Often,Acute
+open wound of the face,Common,0.75,3,14,Subacute,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Dermatological,ENT,Mild,Very Low,Rare,Acute
+open wound of the finger,Common,0.75,3,14,Subacute,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Dermatological,Musculoskeletal,Mild to Moderate,Low,Sometimes,Acute
+open wound of the foot,Common,0.75,7,42,Chronic,Sudden,Progressive,Moderate,0,90,All Ages,Both,Dermatological,Musculoskeletal,Mild to Moderate,Low,Sometimes,Acute
+open wound of the hand,Common,0.75,5,21,Subacute,Sudden,Self-limiting,Moderate,0,90,All Ages,Slightly Male,Dermatological,Musculoskeletal,Moderate to Severe,Low,Often,Acute
+open wound of the head,Common,0.75,1,21,Subacute,Sudden,Progressive,High,0,90,All Ages,Both,Dermatological,Neurological,Moderate to Severe,Low,Often,Acute
+open wound of the jaw,Common,0.75,7,30,Chronic,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Dermatological,ENT,Moderate,Low,Often,Acute
+open wound of the knee,Common,0.75,7,30,Chronic,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Dermatological,Musculoskeletal,Mild to Moderate,Very Low,Sometimes,Acute
+open wound of the lip,Common,0.75,3,10,Acute,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Dermatological,ENT,Moderate,Very Low,Sometimes,Acute
+open wound of the mouth,Common,0.75,3,10,Acute,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,ENT,Gastrointestinal,Severe,Low,Often,Acute
+open wound of the neck,Common,0.75,1,30,Chronic,Sudden,Progressive,High,0,90,All Ages,Both,Dermatological,Cardiovascular,Mild to Moderate,Very Low,Sometimes,Acute
+open wound of the nose,Common,0.75,3,10,Acute,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,ENT,Dermatological,Moderate,Low,Often,Acute
+open wound of the shoulder,Common,0.75,7,30,Chronic,Sudden,Self-limiting,Moderate,3,18,Child,Slightly Male,Dermatological,Musculoskeletal,Moderate,Very Low,Rare,Chronic
+oppositional disorder,Common,0.75,365,3650,Chronic,Gradual,Chronic Stable,Moderate,20,50,Young Adult,Slightly Female,Psychiatric,None,Mild to Moderate,Very Low,Rare,Chronic
+optic neuritis,Common,0.75,14,90,Chronic,Sudden,Relapsing,High,40,80,Middle Aged,Slightly Male,Ophthalmological,Neurological,Moderate,Very Low,Sometimes,Acute
+oral leukoplakia,Common,0.75,365,7300,Chronic,Insidious,Progressive,Moderate,5,90,All Ages,Both,ENT,Gastrointestinal,Mild to Moderate,Very Low,Rare,Chronic
+oral mucosal lesion,Common,0.75,7,30,Chronic,Gradual,Relapsing,Low,0,90,All Ages,Both,ENT,Dermatological,Mild,Very Low,Rare,Acute
+oral thrush (yeast infection),Common,0.75,7,14,Subacute,Sudden,Self-limiting,Low,1,15,Child,Both,ENT,Infectious Disease,Mild,Very Low,Rare,Acute Self-Limiting
+orbital cellulitis,Common,0.75,3,10,Acute,Sudden,Progressive,Emergency,60,95,Elderly,Both,Ophthalmological,Infectious Disease,Moderate to Severe,Low,Almost Always,Acute
+orthostatic hypotension,Common,0.75,1,3650,Chronic,Sudden,Relapsing,Moderate,45,95,Elderly,Slightly Female,Cardiovascular,Neurological,Mild to Moderate,Very Low,Sometimes,Chronic
+osteoarthritis,Very Common,1,1095,18250,Chronic,Insidious,Progressive,Moderate,10,30,Adolescent,Both,Musculoskeletal,None,Moderate,Very Low,Rare,Chronic Progressive
+osteochondroma,Common,0.75,365,10950,Chronic,Insidious,Chronic Stable,Low,5,20,Child,Both,Musculoskeletal,None,Mild,Very Low,Rare,Chronic
+osteochondrosis,Common,0.75,365,3650,Chronic,Insidious,Self-limiting,Low,0,90,All Ages,Both,Musculoskeletal,None,Mild,Very Low,Rare,Chronic
+osteomyelitis,Rare,0.35,21,180,Chronic,Gradual,Progressive,High,50,95,Elderly,Female,Musculoskeletal,Infectious Disease,Moderate to Severe,Low,Often,Chronic
+osteoporosis,Very Common,1,3650,18250,Chronic,Insidious,Progressive,Moderate,0,90,All Ages,Both,Musculoskeletal,Endocrine,Moderate,Very Low,Rare,Chronic Progressive
+otitis externa (swimmer's ear),Common,0.75,5,14,Subacute,Sudden,Self-limiting,Moderate,0,12,Child,Both,ENT,Infectious Disease,Mild,Very Low,Rare,Acute Self-Limiting
+otitis media,Very Common,1,7,21,Subacute,Sudden,Self-limiting,Moderate,15,45,Young Adult,Slightly Female,ENT,Infectious Disease,Mild to Moderate,Very Low,Rare,Acute Self-Limiting
+otosclerosis,Common,0.75,1825,10950,Chronic,Insidious,Progressive,Low,45,80,Middle Aged,Female,ENT,None,Moderate,Very Low,Rare,Chronic Progressive
+ovarian cancer,Common,0.75,180,1825,Chronic,Insidious,Progressive,High,13,55,Young Adult,Female,Reproductive,None,Severe,Moderate,Often,Chronic Progressive
+ovarian cyst,Common,0.75,30,90,Chronic,Gradual,Self-limiting,Moderate,15,45,Young Adult,Female,Reproductive,None,Mild to Moderate,Very Low,Sometimes,Chronic
+ovarian torsion,Rare,0.35,0,1,Very Acute,Sudden,Progressive,Emergency,50,95,Elderly,Slightly Male,Reproductive,None,Severe,Low,Almost Always,Acute
+overflow incontinence,Common,0.75,90,7300,Chronic,Gradual,Chronic Stable,Moderate,0,95,All Ages,Both,Genitourinary,Neurological,Moderate,Very Low,Rare,Chronic
+pain after an operation,Common,0.75,1,14,Subacute,Sudden,Self-limiting,Moderate,20,90,Middle Aged,Both,Multisystem,None,Moderate,Very Low,Almost Always,Acute
+pain disorder affecting the neck,Common,0.75,30,3650,Chronic,Gradual,Relapsing,Low,55,90,Elderly,Slightly Male,Musculoskeletal,Neurological,Mild to Moderate,Very Low,Rare,Chronic
+pancreatic cancer,Common,0.75,90,730,Chronic,Insidious,Progressive,High,18,50,Young Adult,Slightly Female,Gastrointestinal,Endocrine,Severe,High,Often,Chronic Progressive
+panic attack,Common,0.75,0,1,Very Acute,Sudden,Self-limiting,Moderate,18,50,Young Adult,Slightly Female,Psychiatric,Cardiovascular,Moderate,Very Low,Sometimes,Acute
+panic disorder,Common,0.75,180,7300,Chronic,Sudden,Relapsing,Moderate,0,90,All Ages,Both,Psychiatric,None,Moderate,Very Low,Rare,Chronic
+parasitic disease,Common,0.75,7,60,Chronic,Gradual,Progressive,Moderate,30,70,Middle Aged,Slightly Female,Infectious Disease,Gastrointestinal,Mild to Moderate,Low,Sometimes,Acute
+parathyroid adenoma,Common,0.75,365,3650,Chronic,Insidious,Progressive,Moderate,55,95,Elderly,Slightly Male,Endocrine,Multisystem,Moderate,Very Low,Sometimes,Chronic
+parkinson disease,Common,0.75,1825,7300,Chronic,Insidious,Progressive,Moderate,5,80,All Ages,Both,Neurological,Musculoskeletal,Severe,Low,Sometimes,Chronic Progressive
+paronychia,Common,0.75,3,14,Subacute,Sudden,Self-limiting,Low,15,70,Young Adult,Both,Dermatological,Infectious Disease,Mild,Very Low,Rare,Acute
+paroxysmal supraventricular tachycardia,Common,0.75,0,1,Very Acute,Sudden,Relapsing,High,40,95,Middle Aged,Slightly Male,Cardiovascular,None,Moderate,Low,Often,Relapsing-Remitting
+paroxysmal ventricular tachycardia,Common,0.75,0,1,Very Acute,Sudden,Progressive,Emergency,18,70,Young Adult,Both,Cardiovascular,None,Severe,Moderate,Almost Always,Acute
+pelvic fistula,Common,0.75,60,3650,Chronic,Gradual,Progressive,High,15,45,Young Adult,Female,Genitourinary,Reproductive,Moderate,Very Low,Often,Chronic
+pelvic inflammatory disease,Common,0.75,7,28,Chronic,Gradual,Progressive,High,40,95,Middle Aged,Female,Reproductive,Infectious Disease,Moderate to Severe,Low,Often,Acute
+pelvic organ prolapse,Common,0.75,365,7300,Chronic,Gradual,Progressive,Moderate,40,60,Middle Aged,Both,Reproductive,Genitourinary,Moderate,Very Low,Sometimes,Chronic
+pemphigus,Rare,0.35,60,3650,Chronic,Gradual,Relapsing,High,20,70,Young Adult,Slightly Male,Dermatological,Autoimmune,Severe,Moderate,Often,Chronic
+pericarditis,Common,0.75,7,42,Chronic,Sudden,Self-limiting,High,50,95,Elderly,Slightly Male,Cardiovascular,Infectious Disease,Moderate to Severe,Low,Often,Acute
+peripheral arterial disease,Common,0.75,365,7300,Chronic,Insidious,Progressive,High,40,95,Middle Aged,Both,Cardiovascular,None,Moderate,Low,Sometimes,Chronic Progressive
+peripheral arterial embolism,Common,0.75,0,1,Very Acute,Sudden,Progressive,Emergency,20,90,Middle Aged,Both,Cardiovascular,Hematological,Severe,Moderate,Almost Always,Acute
+peripheral nerve disorder,Common,0.75,90,7300,Chronic,Insidious,Progressive,Moderate,20,60,Young Adult,Slightly Male,Neurological,None,Mild to Moderate,Very Low,Rare,Chronic
+perirectal infection,Common,0.75,3,14,Subacute,Sudden,Progressive,High,0,95,All Ages,Both,Gastrointestinal,Infectious Disease,Moderate,Low,Often,Acute
+peritonitis,Common,0.75,1,7,Acute,Sudden,Progressive,Emergency,15,40,Young Adult,Both,Gastrointestinal,Infectious Disease,Severe,Moderate,Almost Always,Acute
+peritonsillar abscess,Common,0.75,3,10,Acute,Sudden,Progressive,High,0,90,All Ages,Both,ENT,Infectious Disease,Moderate to Severe,Low,Often,Acute
+persistent vomiting of unknown cause,Common,0.75,1,14,Subacute,Sudden,Progressive,High,18,60,Young Adult,Both,Gastrointestinal,Endocrine,Moderate,Low,Sometimes,Acute
+personality disorder,Common,0.75,3650,25550,Chronic,Insidious,Chronic Stable,Low,40,70,Middle Aged,Male,Psychiatric,None,Moderate,Very Low,Rare,Chronic
+peyronie disease,Common,0.75,180,3650,Chronic,Gradual,Progressive,Low,0,90,All Ages,Both,Reproductive,Genitourinary,Mild to Moderate,Very Low,Rare,Chronic
+pharyngitis,Very Common,1,3,10,Acute,Sudden,Self-limiting,Low,0,18,Child,Male,ENT,Infectious Disease,Mild,Very Low,Rare,Acute Self-Limiting
+phimosis,Common,0.75,365,18250,Chronic,Gradual,Progressive,Low,15,35,Young Adult,Slightly Male,Reproductive,Genitourinary,Mild to Moderate,Very Low,Rare,Chronic
+pilonidal cyst,Common,0.75,30,3650,Chronic,Gradual,Relapsing,Moderate,30,90,Middle Aged,Both,Dermatological,Gastrointestinal,Mild to Moderate,Very Low,Sometimes,Chronic
+pinguecula,Common,0.75,365,10950,Chronic,Insidious,Chronic Stable,Low,2,12,Child,Both,Ophthalmological,None,Mild,Very Low,Rare,Chronic
+pinworm infection,Common,0.75,7,28,Chronic,Gradual,Self-limiting,Low,20,60,Young Adult,Both,Infectious Disease,Gastrointestinal,Mild,Very Low,Rare,Acute Self-Limiting
+pituitary adenoma,Common,0.75,365,7300,Chronic,Insidious,Progressive,Moderate,0,90,All Ages,Both,Endocrine,Neurological,Moderate,Very Low,Sometimes,Chronic
+pituitary disorder,Common,0.75,180,7300,Chronic,Insidious,Progressive,Moderate,10,35,Young Adult,Both,Endocrine,None,Moderate,Very Low,Rare,Chronic
+pityriasis rosea,Common,0.75,28,84,Chronic,Sudden,Self-limiting,Low,18,45,Young Adult,Female,Dermatological,Infectious Disease,Mild,Very Low,Rare,Acute Self-Limiting
+placenta previa,Common,0.75,30,280,Chronic,Sudden,Progressive,Emergency,18,45,Young Adult,Female,Reproductive,None,Severe,Moderate,Almost Always,Acute
+placental abruption,Common,0.75,0,1,Very Acute,Sudden,Progressive,Emergency,30,70,Middle Aged,Both,Reproductive,None,Severe,Moderate,Almost Always,Acute
+plantar fasciitis,Very Common,1,30,365,Chronic,Gradual,Self-limiting,Low,0,95,All Ages,Both,Musculoskeletal,None,Mild to Moderate,Very Low,Rare,Chronic
+pleural effusion,Common,0.75,7,60,Chronic,Gradual,Progressive,High,30,80,Middle Aged,Male,Respiratory,Cardiovascular,Moderate to Severe,Low,Often,Subacute
+pneumoconiosis,Common,0.75,3650,14600,Chronic,Insidious,Progressive,Moderate,0,95,All Ages,Both,Respiratory,None,Moderate to Severe,Low,Sometimes,Chronic Progressive
+pneumonia,Very Common,1,7,21,Subacute,Sudden,Progressive,High,15,40,Young Adult,Slightly Male,Respiratory,Infectious Disease,Moderate to Severe,Moderate,Often,Acute
+pneumothorax,Common,0.75,1,14,Subacute,Sudden,Progressive,Emergency,0,90,All Ages,Both,Respiratory,Musculoskeletal,Severe,Low,Almost Always,Acute
+poisoning due to analgesics,Common,0.75,1,7,Acute,Sudden,Self-limiting,Emergency,0,90,All Ages,Both,Multisystem,Gastrointestinal,Moderate to Severe,Low,Often,Acute
+poisoning due to anticonvulsants,Common,0.75,1,7,Acute,Sudden,Self-limiting,Emergency,15,60,Young Adult,Both,Neurological,Multisystem,Moderate to Severe,Low,Often,Acute
+poisoning due to antidepressants,Common,0.75,1,7,Acute,Sudden,Self-limiting,Emergency,40,95,Middle Aged,Both,Psychiatric,Neurological,Moderate to Severe,Low,Often,Acute
+poisoning due to antihypertensives,Common,0.75,1,7,Acute,Sudden,Self-limiting,Emergency,0,90,All Ages,Both,Cardiovascular,Multisystem,Moderate to Severe,Low,Often,Acute
+poisoning due to antimicrobial drugs,Common,0.75,1,7,Acute,Sudden,Self-limiting,Emergency,18,60,Young Adult,Both,Multisystem,Gastrointestinal,Moderate to Severe,Low,Often,Acute
+poisoning due to antipsychotics,Common,0.75,1,7,Acute,Sudden,Self-limiting,Emergency,18,60,Young Adult,Both,Psychiatric,Neurological,Moderate to Severe,Low,Often,Acute
+poisoning due to ethylene glycol,Common,0.75,1,5,Acute,Sudden,Progressive,Emergency,0,90,All Ages,Both,Multisystem,Genitourinary,Severe,High,Almost Always,Acute
+poisoning due to gas,Common,0.75,0,2,Very Acute,Sudden,Progressive,Emergency,18,60,Young Adult,Slightly Male,Respiratory,Multisystem,Severe,High,Almost Always,Acute
+poisoning due to opioids,Common,0.75,0,2,Very Acute,Sudden,Progressive,Emergency,15,70,Young Adult,Both,Psychiatric,Respiratory,Severe,High,Almost Always,Acute
+poisoning due to sedatives,Common,0.75,0,3,Very Acute,Sudden,Progressive,Emergency,30,60,Middle Aged,Both,Psychiatric,Neurological,Severe,High,Almost Always,Acute
+polycystic kidney disease,Common,0.75,3650,18250,Chronic,Insidious,Progressive,Moderate,15,45,Young Adult,Female,Genitourinary,None,Moderate,Low,Sometimes,Chronic Progressive
+polycystic ovarian syndrome (pcos),Common,0.75,365,10950,Chronic,Gradual,Chronic Stable,Moderate,50,80,Elderly,Slightly Male,Reproductive,Endocrine,Mild to Moderate,Very Low,Rare,Chronic
+polycythemia vera,Rare,0.35,365,7300,Chronic,Insidious,Progressive,Moderate,60,95,Elderly,Female,Hematological,Cardiovascular,Moderate,Low,Sometimes,Chronic Progressive
+polymyalgia rheumatica,Common,0.75,365,1095,Chronic,Gradual,Self-limiting,Moderate,13,80,Young Adult,Both,Autoimmune,Musculoskeletal,Moderate,Very Low,Rare,Chronic
+post-traumatic stress disorder (ptsd),Common,0.75,30,18250,Chronic,Sudden,Relapsing,Moderate,0,95,All Ages,Both,Psychiatric,None,Moderate,Low,Rare,Chronic
+postoperative infection,Common,0.75,3,21,Subacute,Sudden,Progressive,High,18,45,Young Adult,Female,Infectious Disease,Multisystem,Moderate to Severe,Low,Often,Acute
+postpartum depression,Common,0.75,30,365,Chronic,Gradual,Self-limiting,Moderate,18,45,Young Adult,Female,Psychiatric,Reproductive,Moderate,Low,Sometimes,Subacute
+preeclampsia,Common,0.75,1,90,Chronic,Sudden,Progressive,Emergency,15,49,Young Adult,Female,Cardiovascular,Reproductive,Severe,Moderate,Almost Always,Acute
+pregnancy,Very Common,1,280,280,Chronic,Gradual,Self-limiting,Moderate,0,90,All Ages,Both,Reproductive,Endocrine,Mild,Very Low,Sometimes,Acute
+premature atrial contractions (pacs),Common,0.75,1,10950,Chronic,Sudden,Chronic Stable,Low,15,40,Young Adult,Female,Cardiovascular,None,Mild,Very Low,Rare,Chronic
+premature ovarian failure,Common,0.75,365,10950,Chronic,Gradual,Progressive,Moderate,18,45,Young Adult,Female,Reproductive,Endocrine,Moderate,Very Low,Rare,Chronic
+premature rupture of amniotic membrane,Common,0.75,1,7,Acute,Sudden,Progressive,Emergency,0,90,All Ages,Both,Reproductive,Infectious Disease,Moderate to Severe,Low,Almost Always,Acute
+premature ventricular contractions (pvcs),Common,0.75,1,10950,Chronic,Sudden,Chronic Stable,Moderate,13,50,Adolescent,Female,Cardiovascular,None,Mild,Very Low,Rare,Chronic
+premenstrual tension syndrome,Very Common,1,2,7,Acute,Sudden,Relapsing,Low,60,95,Elderly,Both,Reproductive,Endocrine,Mild,Very Low,Rare,Relapsing-Remitting
+presbyacusis,Common,0.75,1825,10950,Chronic,Insidious,Progressive,Low,40,90,Middle Aged,Both,ENT,None,Mild to Moderate,Very Low,Rare,Chronic Progressive
+presbyopia,Very Common,1,3650,10950,Chronic,Insidious,Progressive,Low,5,60,Young Adult,Male,Ophthalmological,None,Mild,Very Low,Rare,Chronic Progressive
+priapism,Common,0.75,0,1,Very Acute,Sudden,Progressive,Emergency,0,30,Infant,Both,Reproductive,Hematological,Moderate to Severe,Very Low,Almost Always,Acute
+primary immunodeficiency,Rare,0.35,3650,25550,Chronic,Insidious,Chronic Stable,Moderate,18,80,Young Adult,Slightly Female,Autoimmune,Infectious Disease,Severe,Moderate,Often,Chronic
+primary insomnia,Common,0.75,30,7300,Chronic,Gradual,Chronic Stable,Low,0,90,All Ages,Both,Psychiatric,Neurological,Mild,Very Low,Rare,Chronic
+primary kidney disease,Common,0.75,365,7300,Chronic,Insidious,Progressive,High,50,80,Elderly,Both,Genitourinary,None,Moderate,Low,Sometimes,Chronic
+primary thrombocythemia,Common,0.75,365,7300,Chronic,Insidious,Progressive,Moderate,15,49,Young Adult,Female,Hematological,Cardiovascular,Moderate,Low,Sometimes,Chronic Progressive
+problem during pregnancy,Common,0.75,1,280,Chronic,Sudden,Progressive,High,55,95,Elderly,Male,Reproductive,Multisystem,Moderate,Low,Often,Acute
+prostate cancer,Common,0.75,365,5475,Chronic,Insidious,Progressive,High,20,70,Young Adult,Male,Genitourinary,Reproductive,Moderate to Severe,Moderate,Often,Chronic Progressive
+prostatitis,Common,0.75,7,90,Chronic,Sudden,Relapsing,Moderate,0,90,All Ages,Both,Genitourinary,Reproductive,Mild to Moderate,Very Low,Rare,Chronic
+protein deficiency,Common,0.75,30,365,Chronic,Gradual,Progressive,Moderate,5,40,Young Adult,Both,Endocrine,Multisystem,Moderate,Moderate,Sometimes,Chronic
+pseudohypoparathyroidism,Very Rare,0.15,3650,25550,Chronic,Insidious,Chronic Stable,Moderate,20,45,Young Adult,Female,Endocrine,Musculoskeletal,Moderate,Very Low,Rare,Chronic
+pseudotumor cerebri,Common,0.75,90,1095,Chronic,Gradual,Progressive,Moderate,15,60,Young Adult,Both,Neurological,Ophthalmological,Moderate,Very Low,Often,Chronic
+psoriasis,Very Common,1,365,25550,Chronic,Gradual,Relapsing,Low,18,60,Young Adult,Both,Dermatological,Autoimmune,Mild to Moderate,Very Low,Rare,Relapsing-Remitting
+psychosexual disorder,Common,0.75,365,18250,Chronic,Insidious,Chronic Stable,Low,16,60,Young Adult,Both,Psychiatric,Reproductive,Mild,Very Low,Rare,Chronic
+psychotic disorder,Common,0.75,30,18250,Chronic,Sudden,Relapsing,High,25,70,Young Adult,Slightly Male,Psychiatric,None,Severe,Low,Often,Chronic
+pterygium,Common,0.75,365,10950,Chronic,Insidious,Progressive,Low,40,95,Elderly,Both,Ophthalmological,None,Mild,Very Low,Rare,Chronic
+pulmonary congestion,Common,0.75,1,14,Subacute,Sudden,Progressive,Emergency,30,95,Middle Aged,Both,Cardiovascular,Respiratory,Moderate to Severe,Low,Often,Acute
+pulmonary embolism,Common,0.75,1,7,Acute,Sudden,Progressive,Emergency,20,60,Young Adult,Both,Cardiovascular,Respiratory,Severe,High,Almost Always,Acute
+pulmonary eosinophilia,Common,0.75,14,90,Chronic,Gradual,Self-limiting,Moderate,50,80,Elderly,Both,Respiratory,Autoimmune,Moderate,Low,Sometimes,Acute
+pulmonary fibrosis,Common,0.75,365,3650,Chronic,Insidious,Progressive,High,20,75,Young Adult,Slightly Female,Respiratory,Autoimmune,Severe,Moderate,Sometimes,Chronic Progressive
+pulmonary hypertension,Common,0.75,365,3650,Chronic,Insidious,Progressive,High,0,90,All Ages,Both,Cardiovascular,Respiratory,Severe,Moderate,Often,Chronic Progressive
+pulmonic valve disease,Common,0.75,365,10950,Chronic,Insidious,Progressive,Moderate,5,85,Young Adult,Female,Cardiovascular,None,Moderate,Low,Sometimes,Chronic Progressive
+pyelonephritis,Common,0.75,7,14,Subacute,Sudden,Progressive,High,0,1,Infant,Male,Genitourinary,Infectious Disease,Moderate to Severe,Low,Often,Acute
+pyloric stenosis,Common,0.75,14,60,Chronic,Gradual,Progressive,High,0,90,All Ages,Both,Gastrointestinal,None,Moderate,Low,Almost Always,Acute
+pyogenic skin infection,Common,0.75,5,14,Subacute,Sudden,Progressive,Moderate,15,40,Young Adult,Female,Dermatological,Infectious Disease,Mild to Moderate,Very Low,Rare,Acute
+raynaud disease,Common,0.75,365,18250,Chronic,Sudden,Relapsing,Low,20,40,Young Adult,Slightly Male,Cardiovascular,Dermatological,Mild to Moderate,Very Low,Rare,Chronic
+reactive arthritis,Common,0.75,30,180,Chronic,Gradual,Self-limiting,Moderate,0,95,All Ages,Both,Musculoskeletal,Infectious Disease,Moderate,Very Low,Rare,Subacute
+rectal disorder,Common,0.75,30,3650,Chronic,Gradual,Relapsing,Moderate,30,90,Middle Aged,Slightly Female,Gastrointestinal,None,Mild,Very Low,Rare,Chronic
+restless leg syndrome,Common,0.75,365,18250,Chronic,Gradual,Chronic Stable,Low,40,85,Middle Aged,Both,Neurological,Psychiatric,Mild,Very Low,Rare,Chronic
+retinal detachment,Common,0.75,0,7,Acute,Sudden,Progressive,Emergency,40,95,Middle Aged,Both,Ophthalmological,None,Severe,Very Low,Almost Always,Acute
+retinopathy due to high blood pressure,Common,0.75,365,7300,Chronic,Insidious,Progressive,High,15,80,Young Adult,Slightly Male,Ophthalmological,Cardiovascular,Moderate,Low,Rare,Chronic Progressive
+rhabdomyolysis,Rare,0.35,1,14,Subacute,Sudden,Progressive,Emergency,5,15,Child,Both,Musculoskeletal,Genitourinary,Severe,Moderate,Almost Always,Acute
+rheumatic fever,Common,0.75,14,90,Chronic,Sudden,Progressive,High,30,60,Middle Aged,Female,Cardiovascular,Autoimmune,Moderate to Severe,Low,Often,Acute
+rheumatoid arthritis,Common,0.75,365,18250,Chronic,Gradual,Progressive,Moderate,0,80,All Ages,Both,Musculoskeletal,Autoimmune,Moderate,Very Low,Rare,Chronic Progressive
+rocky mountain spotted fever,Common,0.75,7,14,Subacute,Sudden,Progressive,High,30,60,Middle Aged,Slightly Female,Infectious Disease,Multisystem,Severe,Moderate,Often,Acute
+rosacea,Common,0.75,365,10950,Chronic,Gradual,Relapsing,Low,40,85,Middle Aged,Slightly Male,Dermatological,None,Mild,Very Low,Rare,Chronic
+rotator cuff injury,Common,0.75,30,365,Chronic,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Musculoskeletal,None,Moderate,Very Low,Rare,Chronic
+salivary gland disorder,Common,0.75,7,90,Chronic,Gradual,Relapsing,Moderate,20,50,Young Adult,Both,ENT,Gastrointestinal,Mild,Very Low,Rare,Chronic
+sarcoidosis,Rare,0.35,180,1825,Chronic,Insidious,Progressive,Moderate,0,90,All Ages,Both,Multisystem,Respiratory,Moderate,Low,Sometimes,Chronic
+scabies,Common,0.75,14,42,Chronic,Gradual,Progressive,Low,0,90,All Ages,Both,Dermatological,Infectious Disease,Mild,Very Low,Rare,Acute Self-Limiting
+scar,Common,0.75,365,25550,Chronic,Sudden,Chronic Stable,Low,5,15,Child,Both,Dermatological,None,Mild,Very Low,Rare,Chronic
+scarlet fever,Common,0.75,7,14,Subacute,Sudden,Self-limiting,Moderate,16,35,Young Adult,Slightly Male,Infectious Disease,Dermatological,Moderate,Low,Sometimes,Acute Self-Limiting
+schizophrenia,Common,0.75,365,25550,Chronic,Gradual,Progressive,High,30,70,Middle Aged,Both,Psychiatric,None,Severe,Low,Often,Chronic
+sciatica,Common,0.75,14,90,Chronic,Sudden,Relapsing,Moderate,30,60,Middle Aged,Slightly Female,Neurological,Musculoskeletal,Moderate,Very Low,Rare,Chronic
+scleritis,Rare,0.35,7,30,Chronic,Sudden,Progressive,High,30,55,Middle Aged,Female,Ophthalmological,Autoimmune,Moderate,Very Low,Rare,Chronic
+scleroderma,Rare,0.35,365,7300,Chronic,Insidious,Progressive,Moderate,10,18,Adolescent,Slightly Female,Autoimmune,Dermatological,Severe,Low,Sometimes,Chronic Progressive
+scoliosis,Common,0.75,3650,18250,Chronic,Insidious,Progressive,Low,0,90,All Ages,Both,Musculoskeletal,None,Mild to Moderate,Very Low,Rare,Chronic Progressive
+scurvy,Common,0.75,30,90,Chronic,Gradual,Progressive,Moderate,0,90,All Ages,Both,Endocrine,Multisystem,Moderate,Low,Sometimes,Acute
+seasonal allergies (hay fever),Very Common,1,14,90,Chronic,Sudden,Relapsing,Low,15,70,Young Adult,Both,Respiratory,ENT,Mild,Very Low,Rare,Relapsing-Remitting
+sebaceous cyst,Common,0.75,30,10950,Chronic,Gradual,Chronic Stable,Low,0,80,All Ages,Slightly Male,Dermatological,None,Mild,Very Low,Rare,Chronic
+seborrheic dermatitis,Very Common,1,30,18250,Chronic,Gradual,Relapsing,Low,50,95,Elderly,Both,Dermatological,None,Mild,Very Low,Rare,Chronic
+seborrheic keratosis,Common,0.75,365,10950,Chronic,Insidious,Chronic Stable,Low,0,95,All Ages,Both,Dermatological,None,Mild,Very Low,Rare,Chronic
+sensorineural hearing loss,Common,0.75,365,18250,Chronic,Gradual,Progressive,Moderate,0,95,All Ages,Both,ENT,Neurological,Moderate,Very Low,Rare,Chronic Progressive
+sepsis,Common,0.75,1,14,Subacute,Sudden,Progressive,Emergency,0,90,All Ages,Both,Infectious Disease,Multisystem,Severe,High,Almost Always,Acute
+septic arthritis,Common,0.75,7,21,Subacute,Sudden,Progressive,Emergency,50,95,Elderly,Both,Musculoskeletal,Infectious Disease,Severe,Low,Almost Always,Acute
+shingles (herpes zoster),Common,0.75,14,28,Chronic,Sudden,Self-limiting,Moderate,20,80,Middle Aged,Both,Infectious Disease,Neurological,Moderate,Very Low,Rare,Acute
+sialoadenitis,Common,0.75,7,14,Subacute,Sudden,Self-limiting,Moderate,60,95,Elderly,Both,ENT,Infectious Disease,Mild to Moderate,Very Low,Rare,Acute
+sick sinus syndrome,Common,0.75,365,7300,Chronic,Insidious,Progressive,High,0,50,Child,Both,Cardiovascular,None,Moderate to Severe,Low,Often,Chronic
+sickle cell anemia,Common,0.75,3650,25550,Chronic,Sudden,Chronic Stable,High,0,50,Child,Both,Hematological,Multisystem,Moderate to Severe,Low,Often,Chronic
+sickle cell crisis,Common,0.75,3,10,Acute,Sudden,Relapsing,Emergency,0,95,All Ages,Both,Hematological,Multisystem,Severe,Low,Almost Always,Acute
+sinus bradycardia,Common,0.75,1,10950,Chronic,Sudden,Chronic Stable,Moderate,40,60,Middle Aged,Female,Cardiovascular,None,Mild,Very Low,Rare,Chronic
+sjogren syndrome,Common,0.75,365,7300,Chronic,Insidious,Progressive,Moderate,50,95,Elderly,Both,Autoimmune,ENT,Moderate,Very Low,Rare,Chronic
+skin cancer,Common,0.75,180,1825,Chronic,Insidious,Progressive,High,0,90,All Ages,Both,Dermatological,None,Severe,Moderate,Often,Chronic Progressive
+skin disorder,Common,0.75,7,10950,Chronic,Gradual,Relapsing,Low,0,90,All Ages,Both,Dermatological,None,Mild,Very Low,Rare,Chronic
+skin pigmentation disorder,Common,0.75,180,10950,Chronic,Gradual,Chronic Stable,Low,30,90,Middle Aged,Both,Dermatological,None,Mild,Very Low,Rare,Chronic
+skin polyp,Common,0.75,365,10950,Chronic,Insidious,Chronic Stable,Low,13,80,Young Adult,Slightly Male,Dermatological,None,Mild,Very Low,Rare,Chronic
+smoking or tobacco addiction,Very Common,1,365,18250,Chronic,Insidious,Progressive,High,13,30,Adolescent,Both,Psychiatric,Respiratory,Moderate,Moderate,Rare,Chronic Progressive
+social phobia,Common,0.75,365,18250,Chronic,Gradual,Relapsing,Low,0,85,All Ages,Both,Psychiatric,None,Mild to Moderate,Very Low,Rare,Chronic
+soft tissue sarcoma,Common,0.75,180,1095,Chronic,Insidious,Progressive,High,18,45,Young Adult,Female,Musculoskeletal,Dermatological,Severe,Moderate,Often,Chronic Progressive
+somatization disorder,Common,0.75,365,10950,Chronic,Gradual,Relapsing,Moderate,18,70,Young Adult,Male,Psychiatric,Multisystem,Moderate,Very Low,Rare,Chronic
+spermatocele,Common,0.75,365,10950,Chronic,Insidious,Chronic Stable,Low,0,40,Child,Both,Reproductive,Genitourinary,Mild,Very Low,Rare,Chronic
+spherocytosis,Common,0.75,3650,25550,Chronic,Sudden,Chronic Stable,Moderate,0,0,Infant,Both,Hematological,Gastrointestinal,Moderate,Low,Sometimes,Chronic
+spina bifida,Rare,0.35,3650,25550,Chronic,Sudden,Chronic Stable,Moderate,50,95,Elderly,Both,Neurological,Musculoskeletal,Severe,Low,Rare,Chronic
+spinal stenosis,Common,0.75,365,7300,Chronic,Insidious,Progressive,Moderate,20,50,Young Adult,Both,Musculoskeletal,Neurological,Moderate,Very Low,Rare,Chronic Progressive
+spinocerebellar ataxia,Common,0.75,3650,18250,Chronic,Insidious,Progressive,Moderate,15,80,Middle Aged,Both,Neurological,Musculoskeletal,Severe,Low,Rare,Chronic Progressive
+spondylitis,Common,0.75,365,10950,Chronic,Insidious,Progressive,Moderate,15,80,Middle Aged,Both,Musculoskeletal,Autoimmune,Moderate,Very Low,Rare,Chronic Progressive
+spondylolisthesis,Common,0.75,365,10950,Chronic,Gradual,Progressive,Moderate,45,95,Elderly,Both,Musculoskeletal,Neurological,Moderate,Very Low,Rare,Chronic Progressive
+spondylosis,Common,0.75,365,10950,Chronic,Insidious,Progressive,Low,15,45,Young Adult,Female,Musculoskeletal,None,Mild to Moderate,Very Low,Rare,Chronic Progressive
+spontaneous abortion,Common,0.75,1,14,Subacute,Sudden,Self-limiting,Emergency,15,70,Young Adult,Both,Reproductive,None,Severe,Low,Almost Always,Acute
+sporotrichosis,Rare,0.35,30,180,Chronic,Gradual,Progressive,Moderate,5,80,Young Adult,Both,Infectious Disease,Dermatological,Moderate,Very Low,Sometimes,Subacute
+sprain or strain,Very Common,1,7,30,Chronic,Sudden,Self-limiting,Moderate,0,95,All Ages,Both,Musculoskeletal,None,Mild to Moderate,Very Low,Rare,Acute
+stenosis of the tear duct,Common,0.75,180,10950,Chronic,Gradual,Progressive,Low,50,85,Elderly,Slightly Male,Ophthalmological,ENT,Mild,Very Low,Rare,Chronic
+stomach cancer,Common,0.75,180,1095,Chronic,Insidious,Progressive,High,3,30,Child,Both,Gastrointestinal,None,Severe,Moderate,Often,Chronic Progressive
+strep throat,Very Common,1,3,10,Acute,Sudden,Self-limiting,Moderate,35,95,Middle Aged,Female,ENT,Infectious Disease,Mild to Moderate,Very Low,Rare,Acute Self-Limiting
+stress incontinence,Common,0.75,365,7300,Chronic,Gradual,Chronic Stable,Moderate,40,90,Middle Aged,Both,Genitourinary,Musculoskeletal,Mild,Very Low,Rare,Chronic
+stricture of the esophagus,Common,0.75,180,7300,Chronic,Gradual,Progressive,Moderate,45,95,Elderly,Slightly Male,Gastrointestinal,None,Moderate,Very Low,Often,Chronic Progressive
+stroke,Common,0.75,1,10950,Chronic,Sudden,Progressive,Emergency,0,90,All Ages,Both,Neurological,Cardiovascular,Severe,High,Almost Always,Acute
+stye,Common,0.75,3,7,Acute,Sudden,Self-limiting,Low,30,50,Middle Aged,Female,Ophthalmological,Infectious Disease,Mild,Very Low,Rare,Acute Self-Limiting
+subacute thyroiditis,Common,0.75,30,90,Chronic,Gradual,Self-limiting,Moderate,40,70,Middle Aged,Both,Endocrine,Infectious Disease,Moderate,Very Low,Rare,Subacute
+subarachnoid hemorrhage,Common,0.75,0,1,Very Acute,Sudden,Progressive,Emergency,0,95,All Ages,Both,Neurological,Cardiovascular,Severe,High,Almost Always,Acute
+subconjunctival hemorrhage,Common,0.75,7,14,Subacute,Sudden,Self-limiting,Low,0,95,Elderly,Slightly Male,Ophthalmological,Cardiovascular,Mild,Very Low,Rare,Acute Self-Limiting
+subdural hemorrhage,Common,0.75,1,90,Chronic,Sudden,Progressive,Emergency,15,60,Young Adult,Slightly Male,Neurological,Cardiovascular,Severe,Moderate,Almost Always,Acute
+substance-related mental disorder,Common,0.75,180,10950,Chronic,Insidious,Progressive,Moderate,40,95,Middle Aged,Both,Psychiatric,Neurological,Moderate,Low,Sometimes,Chronic
+syndrome of inappropriate secretion of adh (siadh),Common,0.75,7,30,Chronic,Gradual,Self-limiting,High,18,50,Young Adult,Slightly Male,Endocrine,Neurological,Moderate to Severe,Low,Often,Acute
+syphilis,Common,0.75,30,7300,Chronic,Gradual,Progressive,Moderate,20,50,Young Adult,Both,Infectious Disease,Reproductive,Moderate,Low,Rare,Chronic
+syringomyelia,Very Rare,0.15,3650,18250,Chronic,Insidious,Progressive,Moderate,15,45,Young Adult,Female,Neurological,Musculoskeletal,Moderate to Severe,Very Low,Rare,Chronic Progressive
+systemic lupus erythematosis (sle),Common,0.75,365,10950,Chronic,Insidious,Relapsing,High,0,2,Infant,Both,Autoimmune,Multisystem,Moderate to Severe,Low,Sometimes,Chronic
+teething syndrome,Common,0.75,3,7,Acute,Gradual,Self-limiting,Low,0,95,All Ages,Both,ENT,None,Mild,Very Low,Rare,Acute Self-Limiting
+temporary or benign blood in urine,Common,0.75,1,3,Very Acute,Sudden,Self-limiting,Moderate,20,50,Young Adult,Female,Genitourinary,None,Mild,Very Low,Rare,Acute Self-Limiting
+temporomandibular joint disorder,Common,0.75,30,3650,Chronic,Gradual,Relapsing,Low,20,80,Middle Aged,Both,Musculoskeletal,ENT,Mild to Moderate,Very Low,Rare,Chronic
+tendinitis,Common,0.75,7,30,Chronic,Sudden,Self-limiting,Low,15,60,Young Adult,Slightly Female,Musculoskeletal,None,Mild to Moderate,Very Low,Rare,Subacute
+tension headache,Very Common,1,0,1,Very Acute,Sudden,Relapsing,Low,15,40,Young Adult,Male,Neurological,Psychiatric,Mild to Moderate,Very Low,Rare,Chronic
+testicular cancer,Common,0.75,180,1825,Chronic,Gradual,Progressive,High,0,90,All Ages,Male,Reproductive,None,Severe,Moderate,Often,Chronic Progressive
+testicular disorder,Common,0.75,30,3650,Chronic,Gradual,Chronic Stable,Moderate,12,25,Adolescent,Male,Reproductive,None,Mild,Very Low,Rare,Chronic
+testicular torsion,Common,0.75,0,1,Very Acute,Sudden,Progressive,Emergency,0,90,All Ages,Both,Reproductive,Genitourinary,Severe,Very Low,Almost Always,Acute
+thalassemia,Common,0.75,3650,25550,Chronic,Sudden,Chronic Stable,High,55,90,Elderly,Slightly Male,Hematological,None,Moderate to Severe,Low,Often,Chronic
+thoracic aortic aneurysm,Common,0.75,365,7300,Chronic,Insidious,Progressive,Emergency,20,50,Young Adult,Female,Cardiovascular,Respiratory,Severe,Moderate,Often,Chronic Progressive
+thoracic outlet syndrome,Common,0.75,180,3650,Chronic,Gradual,Relapsing,Moderate,15,45,Young Adult,Female,Neurological,Cardiovascular,Moderate,Very Low,Rare,Chronic
+threatened pregnancy,Common,0.75,1,14,Subacute,Sudden,Progressive,High,0,90,All Ages,Both,Reproductive,None,Moderate,Low,Often,Acute
+thrombocytopenia,Common,0.75,7,365,Chronic,Sudden,Relapsing,High,30,85,Middle Aged,Slightly Female,Hematological,None,Moderate,Low,Sometimes,Acute
+thrombophlebitis,Common,0.75,7,21,Subacute,Sudden,Self-limiting,Moderate,25,75,Middle Aged,Female,Cardiovascular,Hematological,Moderate,Low,Sometimes,Acute
+thyroid cancer,Common,0.75,365,5475,Chronic,Insidious,Progressive,High,0,90,All Ages,Slightly Female,Endocrine,None,Moderate to Severe,Low,Often,Chronic Progressive
+thyroid disease,Common,0.75,365,10950,Chronic,Insidious,Progressive,Moderate,20,80,Middle Aged,Slightly Female,Endocrine,None,Mild to Moderate,Very Low,Rare,Chronic
+thyroid nodule,Common,0.75,365,7300,Chronic,Insidious,Chronic Stable,Moderate,5,18,Child,Slightly Male,Endocrine,None,Mild,Very Low,Rare,Chronic
+tic (movement) disorder,Common,0.75,365,7300,Chronic,Sudden,Relapsing,Low,20,40,Young Adult,Both,Neurological,Psychiatric,Mild,Very Low,Rare,Chronic
+tietze syndrome,Common,0.75,7,90,Chronic,Sudden,Self-limiting,Low,40,95,Middle Aged,Both,Musculoskeletal,Respiratory,Mild,Very Low,Rare,Acute
+tinnitus of unknown cause,Common,0.75,30,10950,Chronic,Sudden,Chronic Stable,Low,2,15,Child,Both,ENT,Neurological,Mild,Very Low,Rare,Chronic
+tonsillar hypertrophy,Common,0.75,365,3650,Chronic,Gradual,Chronic Stable,Low,2,30,Child,Both,ENT,Respiratory,Mild,Very Low,Rare,Chronic
+tonsillitis,Common,0.75,3,10,Acute,Sudden,Self-limiting,Moderate,2,90,All Ages,Both,ENT,Infectious Disease,Mild to Moderate,Very Low,Rare,Acute Self-Limiting
+tooth abscess,Common,0.75,2,7,Acute,Sudden,Progressive,High,0,90,All Ages,Both,ENT,Infectious Disease,Moderate,Low,Sometimes,Acute
+tooth disorder,Common,0.75,30,10950,Chronic,Gradual,Progressive,Moderate,0,60,All Ages,Both,ENT,None,Mild,Very Low,Rare,Chronic
+torticollis,Common,0.75,1,30,Chronic,Sudden,Relapsing,Moderate,5,18,Child,Male,Musculoskeletal,Neurological,Moderate,Very Low,Rare,Subacute
+tourette syndrome,Common,0.75,365,10950,Chronic,Sudden,Chronic Stable,Low,50,90,Elderly,Female,Psychiatric,Neurological,Moderate,Very Low,Rare,Chronic
+toxic multinodular goiter,Rare,0.35,365,7300,Chronic,Insidious,Progressive,Moderate,0,80,All Ages,Both,Endocrine,Cardiovascular,Moderate,Low,Sometimes,Chronic Progressive
+toxoplasmosis,Common,0.75,14,30,Chronic,Gradual,Self-limiting,Moderate,0,12,Child,Both,Infectious Disease,Multisystem,Mild to Moderate,Low,Rare,Subacute
+tracheitis,Common,0.75,3,10,Acute,Sudden,Progressive,High,50,95,Elderly,Both,ENT,Respiratory,Moderate,Low,Often,Acute
+transient ischemic attack,Common,0.75,0,1,Very Acute,Sudden,Self-limiting,Emergency,40,95,Elderly,Both,Neurological,Cardiovascular,Moderate to Severe,Low,Often,Acute
+trichiasis,Common,0.75,30,3650,Chronic,Gradual,Progressive,Moderate,10,70,All Ages,Both,Ophthalmological,None,Mild,Very Low,Rare,Chronic
+trichinosis,Rare,0.35,14,60,Chronic,Gradual,Self-limiting,Moderate,16,50,Young Adult,Female,Infectious Disease,Musculoskeletal,Moderate,Low,Sometimes,Acute
+trichomonas infection,Common,0.75,7,21,Subacute,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Infectious Disease,Reproductive,Mild,Very Low,Rare,Acute
+tricuspid valve disease,Common,0.75,365,10950,Chronic,Insidious,Progressive,Moderate,50,95,Elderly,Slightly Female,Cardiovascular,None,Moderate,Low,Sometimes,Chronic Progressive
+trigeminal neuralgia,Common,0.75,1,10950,Chronic,Sudden,Relapsing,Moderate,40,75,Middle Aged,Slightly Female,Neurological,None,Moderate to Severe,Very Low,Rare,Chronic
+trigger finger (finger disorder),Common,0.75,30,365,Chronic,Gradual,Relapsing,Low,0,90,All Ages,Both,Musculoskeletal,None,Mild,Very Low,Rare,Chronic
+tuberculosis,Common,0.75,60,730,Chronic,Insidious,Progressive,High,0,30,Child,Both,Infectious Disease,Respiratory,Moderate to Severe,Moderate,Sometimes,Chronic
+tuberous sclerosis,Very Rare,0.15,3650,25550,Chronic,Insidious,Chronic Stable,Moderate,0,0,Infant,Female,Multisystem,Neurological,Moderate,Low,Rare,Chronic Progressive
+turner syndrome,Very Rare,0.15,3650,25550,Chronic,Sudden,Chronic Stable,Moderate,2,40,Child,Both,Endocrine,Reproductive,Moderate,Very Low,Rare,Chronic
+typhoid fever,Common,0.75,14,28,Chronic,Gradual,Progressive,High,15,40,Young Adult,Both,Infectious Disease,Gastrointestinal,Moderate to Severe,Low,Often,Acute Self-Limiting
+ulcerative colitis,Common,0.75,365,14600,Chronic,Gradual,Relapsing,Moderate,0,90,All Ages,Both,Gastrointestinal,Autoimmune,Moderate to Severe,Low,Sometimes,Relapsing-Remitting
+urethral disorder,Common,0.75,30,3650,Chronic,Gradual,Chronic Stable,Moderate,20,80,Middle Aged,Male,Genitourinary,None,Mild,Very Low,Rare,Chronic
+urethral stricture,Common,0.75,180,7300,Chronic,Gradual,Progressive,Moderate,0,12,Infant,Male,Genitourinary,None,Moderate,Very Low,Sometimes,Chronic
+urethral valves,Common,0.75,3650,21900,Chronic,Sudden,Chronic Stable,High,16,50,Young Adult,Both,Genitourinary,None,Moderate to Severe,Low,Often,Chronic
+urethritis,Common,0.75,3,14,Subacute,Sudden,Progressive,Moderate,40,95,Elderly,Female,Genitourinary,Infectious Disease,Mild,Very Low,Rare,Acute
+urge incontinence,Common,0.75,90,7300,Chronic,Gradual,Chronic Stable,Moderate,0,95,All Ages,Female,Genitourinary,Neurological,Mild to Moderate,Very Low,Rare,Chronic
+urinary tract infection,Very Common,1,3,10,Acute,Sudden,Progressive,Moderate,0,95,All Ages,Slightly Male,Genitourinary,Infectious Disease,Mild to Moderate,Very Low,Rare,Acute
+urinary tract obstruction,Common,0.75,1,90,Chronic,Sudden,Progressive,High,18,45,Young Adult,Female,Genitourinary,None,Moderate to Severe,Low,Often,Acute
+uterine atony,Common,0.75,0,1,Very Acute,Sudden,Progressive,Emergency,50,85,Elderly,Female,Reproductive,None,Severe,Moderate,Almost Always,Acute
+uterine cancer,Common,0.75,180,3650,Chronic,Insidious,Progressive,High,25,55,Young Adult,Female,Reproductive,None,Severe,Moderate,Often,Chronic Progressive
+uterine fibroids,Common,0.75,365,7300,Chronic,Insidious,Chronic Stable,Moderate,20,60,Young Adult,Both,Reproductive,None,Moderate,Very Low,Sometimes,Chronic
+uveitis,Common,0.75,7,60,Chronic,Sudden,Relapsing,High,0,0,Infant,Both,Ophthalmological,Autoimmune,Moderate,Very Low,Sometimes,Acute
+vacterl syndrome,Very Rare,0.15,3650,25550,Chronic,Sudden,Chronic Stable,Moderate,15,60,Young Adult,Female,Multisystem,Cardiovascular,Severe,Low,Rare,Chronic
+vaginal cyst,Common,0.75,30,3650,Chronic,Insidious,Chronic Stable,Low,15,55,Young Adult,Female,Reproductive,None,Mild,Very Low,Rare,Chronic
+vaginal yeast infection,Common,0.75,3,10,Acute,Sudden,Self-limiting,Low,18,40,Young Adult,Female,Reproductive,Infectious Disease,Mild,Very Low,Rare,Acute Self-Limiting
+vaginismus,Common,0.75,90,7300,Chronic,Gradual,Chronic Stable,Low,15,80,Young Adult,Female,Reproductive,Psychiatric,Moderate,Very Low,Rare,Chronic
+vaginitis,Very Common,1,3,14,Subacute,Sudden,Self-limiting,Low,10,80,All Ages,Both,Reproductive,Infectious Disease,Mild,Very Low,Rare,Acute
+valley fever,Common,0.75,14,90,Chronic,Gradual,Self-limiting,Moderate,15,35,Young Adult,Male,Infectious Disease,Respiratory,Moderate,Low,Sometimes,Subacute
+varicocele of the testicles,Common,0.75,365,10950,Chronic,Insidious,Chronic Stable,Low,30,85,Middle Aged,Female,Reproductive,Cardiovascular,Mild,Very Low,Rare,Chronic
+varicose veins,Very Common,1,365,10950,Chronic,Insidious,Progressive,Low,20,70,Middle Aged,Both,Cardiovascular,Dermatological,Mild to Moderate,Very Low,Rare,Chronic Progressive
+vasculitis,Common,0.75,30,1095,Chronic,Gradual,Progressive,High,40,95,Middle Aged,Both,Cardiovascular,Autoimmune,Moderate to Severe,Low,Sometimes,Chronic
+venous insufficiency,Common,0.75,365,10950,Chronic,Insidious,Progressive,Moderate,50,95,Elderly,Both,Cardiovascular,Dermatological,Moderate,Very Low,Rare,Chronic Progressive
+vertebrobasilar insufficiency,Common,0.75,1,3650,Chronic,Sudden,Relapsing,High,0,12,Infant,Both,Neurological,Cardiovascular,Moderate to Severe,Low,Sometimes,Chronic Progressive
+vesicoureteral reflux,Common,0.75,365,5475,Chronic,Sudden,Progressive,Moderate,0,15,Child,Both,Genitourinary,None,Moderate,Low,Sometimes,Chronic
+viral exanthem,Common,0.75,3,10,Acute,Sudden,Self-limiting,Moderate,0,90,All Ages,Both,Dermatological,Infectious Disease,Mild,Very Low,Rare,Acute Self-Limiting
+viral hepatitis,Common,0.75,14,180,Chronic,Gradual,Self-limiting,High,5,50,Child,Both,Gastrointestinal,Infectious Disease,Moderate,Low,Sometimes,Acute
+viral warts,Very Common,1,90,730,Chronic,Gradual,Relapsing,Low,0,90,All Ages,Both,Dermatological,Infectious Disease,Mild,Very Low,Rare,Chronic
+vitamin a deficiency,Common,0.75,30,365,Chronic,Insidious,Progressive,Moderate,0,90,All Ages,Both,Endocrine,Ophthalmological,Moderate,Low,Rare,Chronic
+vitamin b12 deficiency,Common,0.75,60,365,Chronic,Insidious,Progressive,Moderate,0,90,All Ages,Both,Hematological,Neurological,Moderate,Low,Rare,Chronic
+vitamin d deficiency,Very Common,1,90,365,Chronic,Insidious,Progressive,Moderate,50,95,Elderly,Both,Endocrine,Musculoskeletal,Mild to Moderate,Very Low,Rare,Chronic
+vitreous degeneration,Common,0.75,365,7300,Chronic,Insidious,Chronic Stable,Low,40,90,Middle Aged,Both,Ophthalmological,None,Mild,Very Low,Rare,Chronic Progressive
+vitreous hemorrhage,Common,0.75,1,90,Chronic,Sudden,Progressive,Emergency,20,60,Young Adult,Slightly Male,Ophthalmological,Cardiovascular,Moderate to Severe,Very Low,Often,Acute
+vocal cord polyp,Common,0.75,30,365,Chronic,Gradual,Chronic Stable,Low,0,90,Infant,Both,ENT,Respiratory,Mild to Moderate,Very Low,Rare,Chronic
+volvulus,Common,0.75,1,3,Very Acute,Sudden,Progressive,Emergency,0,80,Child,Both,Gastrointestinal,None,Severe,Moderate,Almost Always,Acute
+von willebrand disease,Common,0.75,3650,25550,Chronic,Sudden,Chronic Stable,Moderate,55,90,Elderly,Female,Hematological,None,Moderate,Low,Rare,Chronic
+vulvar cancer,Common,0.75,180,1825,Chronic,Insidious,Progressive,High,15,90,Young Adult,Female,Reproductive,None,Severe,Moderate,Often,Chronic Progressive
+vulvar disorder,Common,0.75,30,3650,Chronic,Gradual,Chronic Stable,Moderate,18,50,Young Adult,Female,Reproductive,None,Mild,Very Low,Rare,Chronic
+vulvodynia,Common,0.75,90,7300,Chronic,Insidious,Chronic Stable,Low,30,80,Middle Aged,Slightly Male,Reproductive,Neurological,Moderate,Very Low,Rare,Chronic
+wernicke korsakoff syndrome,Common,0.75,7,365,Chronic,Sudden,Progressive,Emergency,0,90,All Ages,Both,Neurological,Endocrine,Severe,Low,Often,Acute
+white blood cell disease,Common,0.75,30,7300,Chronic,Insidious,Progressive,High,0,18,Child,Both,Hematological,Infectious Disease,Moderate,Low,Sometimes,Chronic
+whooping cough,Common,0.75,42,70,Chronic,Gradual,Self-limiting,Moderate,5,35,Young Adult,Both,Infectious Disease,Respiratory,Moderate,Low,Often,Acute Self-Limiting
+wilson disease,Very Rare,0.15,3650,18250,Chronic,Insidious,Progressive,Moderate,0,95,All Ages,Female,Gastrointestinal,Neurological,Severe,Low,Rare,Chronic Progressive
+yeast infection,Common,0.75,3,10,Acute,Sudden,Self-limiting,Low,60,95,Elderly,Slightly Male,Infectious Disease,Reproductive,Mild,Very Low,Rare,Acute
+zenker diverticulum,Very Rare,0.15,365,7300,Chronic,Insidious,Progressive,Moderate,60,95,Elderly,Slightly Male,Gastrointestinal,ENT,Moderate,Very Low,Sometimes,Chronic Progressive

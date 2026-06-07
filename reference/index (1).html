@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Disease Prediction</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Familjen+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+
+  <!-- CSS file  -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+
+  <!--NAVBAR-->
+  <nav>
+    <div class="logo">Med<em>Predict</em></div>
+
+    <ul class="nav-links">
+      <li><a href="#symptoms">Symptoms</a></li>
+      <li><a href="#skin">Skin</a></li>
+      <li><a href="#chatbot">Chat</a></li>
+      <li><a href="#appointment">Book</a></li>
+    </ul>
+
+    <button class="nav-pill">Get Started</button>
+  </nav>
+
+
+  <!--HERO SECTION
+      Left side: heading + buttons
+      Right side: stat blocks -->
+  <div class="hero">
+
+    <div class="hero-left">
+      <h1>
+        Check your<br/>
+        <em>Symptoms &</em><br/>
+        <u>Get Answers.</u>
+      </h1>
+
+      <p class="hero-desc">
+        AI-powered disease prediction for everyone — especially those in rural
+        areas with limited access to doctors. Describe symptoms, scan skin,
+        chat with our bot, or book a consultation.
+      </p>
+
+      <div class="hero-btns">
+        <button class="btn-ink"
+          onclick="document.getElementById('symptoms').scrollIntoView({behavior:'smooth'})">
+          Check Symptoms →
+        </button>
+        <button class="btn-out"
+          onclick="document.getElementById('chatbot').scrollIntoView({behavior:'smooth'})">
+          Talk to AI
+        </button>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="stat-block">
+        <div class="stat-num">40+</div>
+        <div>
+          <div class="stat-title">Diseases detected</div>
+          <div class="stat-sub">via symptom analysis model</div>
+        </div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">10K</div>
+        <div>
+          <div class="stat-title">Skin images trained</div>
+          <div class="stat-sub">dermatoscopic dataset, CNN</div>
+        </div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">3</div>
+        <div>
+          <div class="stat-title">AI models integrated</div>
+          <div class="stat-sub">RF, CNN, LLM chatbot</div>
+        </div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num">∞</div>
+        <div>
+          <div class="stat-title">Available 24/7</div>
+          <div class="stat-sub">no waiting rooms</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- ══════════════════════════════════════════════════════════
+       SCROLLING INFO STRIP (slightly tilted for character)
+       ══════════════════════════════════════════════════════════ -->
+  <div class="strip">
+    <div class="strip-item"> Symptom Prediction</div>
+    <div class="strip-sep">×</div>
+    <div class="strip-item"> Skin Detection</div>
+    <div class="strip-sep">×</div>
+    <div class="strip-item"> AI Chatbot</div>
+    <div class="strip-sep">×</div>
+    <div class="strip-item"> Doctor Booking</div>
+    <div class="strip-sep">×</div>
+    <div class="strip-item">Rural Healthcare Access</div>
+  </div>
+
+
+  <!-- ══════════════════════════════════════════════════════════
+       SECTION 00 — FEATURES OVERVIEW
+       ══════════════════════════════════════════════════════════ -->
+  <section class="section">
+    <div class="sec-head">
+      <div class="sec-num">00</div>
+      <div>
+        <div class="sec-label">Overview</div>
+        <div class="sec-title">Four modules, one platform</div>
+        <p class="sec-sub">
+          Each module handles a specific healthcare need.
+          Together they form a complete preliminary health assistant.
+        </p>
+      </div>
+    </div>
+
+    <div class="feat-row">
+      <div class="feat">
+        <div class="feat-mark">01</div>
+        <h3>Disease Prediction</h3>
+        <p>Enter symptoms, get disease predictions with probability scores and risk level.</p>
+        <span class="feat-tech">RandomForest + XGBoost</span>
+      </div>
+      <div class="feat">
+        <div class="feat-mark">02</div>
+        <h3>Skin Analysis</h3>
+        <p>Upload a photo of the affected skin area. CNN model identifies the condition.</p>
+        <span class="feat-tech">MobileNet / ResNet</span>
+      </div>
+      <div class="feat">
+        <div class="feat-mark">03</div>
+        <h3>Health Chatbot</h3>
+        <p>Describe your problem in plain words. Get severity scoring and care guidance.</p>
+        <span class="feat-tech">NLP + LLM API</span>
+      </div>
+      <div class="feat">
+        <div class="feat-mark">04</div>
+        <h3>Book a Doctor</h3>
+        <p>Schedule a telemedicine session. Get a Google Meet link by email instantly.</p>
+        <span class="feat-tech">Google Calendar API</span>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider"/>
+
+
+  <!-- ══════════════════════════════════════════════════════════
+       SECTION 01 — SYMPTOM PREDICTOR  (Akshat + Sejal's module)
+       ══════════════════════════════════════════════════════════ -->
+  <section class="section" id="symptoms">
+    <div class="sec-head">
+      <div class="sec-num">01</div>
+      <div>
+        <div class="sec-label">Module One</div>
+        <div class="sec-title">Symptom-based disease predictor</div>
+        <p class="sec-sub">
+          Click symptoms or type your own. The ML model returns probable
+          diseases with confidence scores.
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-top">
+        <div class="card-name">
+          <span class="live-dot"></span>
+          Prediction Engine
+        </div>
+        <span class="card-badge">RandomForest / XGBoost</span>
+      </div>
+
+      <div class="card-body">
+        <p class="tag-lbl">Select symptoms:</p>
+
+        <!-- Symptom tags — clicking toggles selection -->
+        <div class="tags" id="tags-container">
+          <span class="stag" onclick="toggleTag(this)">Fever</span>
+          <span class="stag" onclick="toggleTag(this)">Headache</span>
+          <span class="stag" onclick="toggleTag(this)">Cough</span>
+          <span class="stag" onclick="toggleTag(this)">Fatigue</span>
+          <span class="stag" onclick="toggleTag(this)">Nausea</span>
+          <span class="stag" onclick="toggleTag(this)">Chest Pain</span>
+          <span class="stag" onclick="toggleTag(this)">Skin Rash</span>
+          <span class="stag" onclick="toggleTag(this)">Breathlessness</span>
+          <span class="stag" onclick="toggleTag(this)">Joint Pain</span>
+          <span class="stag" onclick="toggleTag(this)">Vomiting</span>
+          <span class="stag" onclick="toggleTag(this)">Dizziness</span>
+          <span class="stag" onclick="toggleTag(this)">Sore Throat</span>
+          <span class="stag" onclick="toggleTag(this)">Weight Loss</span>
+          <span class="stag" onclick="toggleTag(this)">Sweating</span>
+        </div>
+
+        <!-- Type a custom symptom -->
+        <div class="input-row">
+          <input
+            class="txt-input"
+            id="custom-sym-input"
+            type="text"
+            placeholder="Type another symptom, press Enter…"
+            onkeydown="addTag(event)"
+          />
+          <button class="btn-ink" style="padding:0 24px; font-size:.82rem; letter-spacing:.05em"
+            onclick="runPredict()">
+            Predict →
+          </button>
+        </div>
+
+        <!-- Result area — your ML model output goes here -->
+        <div class="result-box" id="pred-result">
+          <!-- <div class="r-icon">📊</div> -->
+          <strong>Results will appear here</strong>
+          Connect your Flask / FastAPI backend to fill this with disease names,
+          confidence %, and top-3 predictions.
+        </div>
+
+        <!-- Risk level legend -->
+        <div class="risk-pills">
+          <div class="r-pill"><span class="pip pip-low"></span> Low risk</div>
+          <div class="r-pill"><span class="pip pip-mid"></span> Medium risk</div>
+          <div class="r-pill"><span class="pip pip-high"></span> High risk</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider"/>
+
+
+  <!-- ══════════════════════════════════════════════════════════
+       SECTIONS 02 + 03 — SKIN DETECTION & CHATBOT (side by side)
+       ══════════════════════════════════════════════════════════ -->
+  <section class="section">
+    <div class="two-col">
+
+      <!-- MODULE 2 — Skin Detection (Vaidehi's module) -->
+      <div id="skin">
+        <div class="sec-head" style="margin-bottom: 28px;">
+          <div class="sec-num">02</div>
+          <div>
+            <div class="sec-label">Module Two</div>
+            <div class="sec-title" style="font-size: 1.8rem;">Skin disease detection</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top">
+            <div class="card-name"><span class="live-dot"></span> Image Analysis</div>
+            <span class="card-badge">CNN Model</span>
+          </div>
+          <div class="card-body">
+
+            <!-- Clicking the label opens the file picker (input is hidden) -->
+            <label for="skin-upload">
+              <div class="upload-zone" id="upload-zone">
+                <!-- <div class="u-icon">📷</div> -->
+                <p>
+                  <strong>Click to upload image</strong><br/>
+                  Clear photo of the skin area<br/>
+                  JPG or PNG
+                </p>
+              </div>
+            </label>
+            <input
+              type="file"
+              id="skin-upload"
+              accept="image/*"
+              onchange="previewSkin(event)"
+              style="display:none"
+            />
+
+            <!-- CNN result appears here -->
+            <div class="result-box" id="skin-result" style="margin-top: 14px;">
+              <div class="r-icon"></div>
+              <strong>Skin analysis result</strong>
+              Vaidehi's CNN model output (condition name + confidence)
+              will be shown here.
+            </div>
+
+          </div>
+        </div>
+      </div><!-- end skin module -->
+
+
+      <!-- MODULE 3 — AI Chatbot (Parth's module) -->
+      <div id="chatbot">
+        <div class="sec-head" style="margin-bottom: 28px;">
+          <div class="sec-num">03</div>
+          <div>
+            <div class="sec-label">Module Three</div>
+            <div class="sec-title" style="font-size: 1.8rem;">AI health chatbot</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top">
+            <div class="card-name"><span class="live-dot"></span> MedBot</div>
+            <span class="card-badge">LLM Powered</span>
+          </div>
+          <div class="card-body">
+
+            <!-- Chat messages appear here -->
+            <div class="chat-area" id="chat-area">
+              <div class="msg bot">
+                Hey! I'm MedBot. Tell me what you're feeling and I'll help
+                you understand it. What are your symptoms?
+              </div>
+            </div>
+
+            <!-- Chat input row -->
+            <div class="chat-row">
+              <input
+                class="txt-input"
+                id="chat-input"
+                type="text"
+                placeholder="Describe your symptoms…"
+                onkeydown="sendMsg(event)"
+              />
+              <!-- button also triggers sendMsg with a fake Enter keypress -->
+              <button class="send-btn" onclick="sendMsg({key:'Enter'})">→</button>
+            </div>
+
+            <p style="font-size:.72rem; color:#8a7a65; margin-top:10px; font-style:italic;">
+              * Parth's chatbot API connects here. Demo replies shown until then.
+            </p>
+
+          </div>
+        </div>
+      </div><!-- end chatbot module -->
+
+    </div><!-- end .two-col -->
+  </section>
+
+  <hr class="divider"/>
+
+
+  <!-- ══════════════════════════════════════════════════════════
+       SECTION 04 — APPOINTMENT BOOKING  (Akshat + Sejal's module)
+       ══════════════════════════════════════════════════════════ -->
+  <section class="section" id="appointment">
+    <div class="sec-head">
+      <div class="sec-num">04</div>
+      <div>
+        <div class="sec-label">Module Four</div>
+        <div class="sec-title">Book a doctor appointment</div>
+        <p class="sec-sub">
+          Fill in your details and get a video consultation link generated
+          instantly via Google Calendar.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="card-top">
+        <div class="card-name"><span class="live-dot"></span> Appointment Scheduler</div>
+        <span class="card-badge">Google Calendar API</span>
+      </div>
+      <div class="card-body">
+
+        <div class="form-grid">
+          <div class="f-field">
+            <label for="apt-name">Full Name</label>
+            <input type="text" id="apt-name" placeholder="Your full name"/>
+          </div>
+          <div class="f-field">
+            <label for="apt-email">Email Address</label>
+            <input type="email" id="apt-email" placeholder="your@email.com"/>
+          </div>
+          <div class="f-field">
+            <label for="apt-date">Preferred Date</label>
+            <input type="date" id="apt-date"/>
+          </div>
+          <div class="f-field">
+            <label for="apt-time">Preferred Time</label>
+            <input type="time" id="apt-time"/>
+          </div>
+          <div class="f-field">
+            <label for="apt-spec">Specialization</label>
+            <select id="apt-spec">
+              <option value="">Select…</option>
+              <option>General Physician</option>
+              <option>Dermatologist</option>
+              <option>Cardiologist</option>
+              <option>ENT Specialist</option>
+              <option>Pulmonologist</option>
+              <option>Neurologist</option>
+            </select>
+          </div>
+          <div class="f-field">
+            <label for="apt-concern">Main Concern</label>
+            <input type="text" id="apt-concern" placeholder="e.g. recurring fever"/>
+          </div>
+        </div>
+
+        <button class="book-btn" onclick="bookAppointment()">
+          Book &amp; Generate Meet Link
+        </button>
+
+        <!-- Confirmation box (hidden until form is submitted) -->
+        <div class="result-box" id="apt-result" style="margin-top: 16px; display: none;">
+          <!-- <div class="r-icon">✅</div> -->
+          <strong id="apt-confirm-text">Booking submitted!</strong>
+          Google Calendar API will generate the Meet link and send
+          a confirmation email to you.
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <!-- <div>
+      <div class="f-logo">Med<em>Predict</em></div>
+      <p class="f-note">
+        A multi-modal AI healthcare assistant built to bridge the gap between
+        symptom onset and professional medical consultation. Designed for early
+        detection and rural accessibility.
+      </p>
+    </div> -->
+
+    <div class="f-col">
+      <div class="f-col-title">Team</div>
+      <ul>
+        <li>Akshat Singh — 24BCE10004</li>
+        <li>Parth Khare — 24BCE10390</li>
+        <li>Sejal Mishra — 24BCE11199</li>
+        <li>Vaidehi Gupta — 24BCE10616</li>
+        <li>Divyansh Varshney — 24BCE11063</li>
+      </ul>
+    </div>
+
+  </footer>
+
+
+  <!-- Our JS file — loaded at the bottom so HTML loads first -->
+  <script src="script.js"></script>
+
+</body>
+</html>

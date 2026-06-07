@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Med Predict</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a href="#home" class="brand">Med <span>Predict</span></a>
+    <nav class="main-nav">
+      <a href="#disease">Disease Predictor</a>
+      <a href="#skin">Skin Predictor</a>
+      <a href="#chatbot">Chatbot</a>
+      <a href="#booking">Booking</a>
+    </nav>
+    <button class="primary-btn" type="button" data-scroll="#disease">Start</button>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="label">Disease Predicting Webapp with Chatbot</p>
+        <h1>Early insights for better healthcare decisions.</h1>
+        <p class="hero-subtext">
+          Med Predict combines symptom analysis, skin image checks, and AI support chat in one clean platform.
+          This frontend is ready to connect with your models and APIs later.
+        </p>
+        <div class="hero-actions">
+          <button class="primary-btn" type="button" data-scroll="#disease">Try Demo</button>
+          <button class="ghost-btn" type="button" data-scroll="#booking">Book Consultation</button>
+        </div>
+      </div>
+      <aside class="hero-panel">
+        <h2>Project Modules</h2>
+        <ul>
+          <li><strong>01.</strong> Disease Predictor</li>
+          <li><strong>02.</strong> Skin Disease Predictor</li>
+          <li><strong>03.</strong> Integrated Chatbot</li>
+          <li><strong>04.</strong> Appointment + Email Notification</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <p class="section-label">Overview</p>
+        <h2>One website, multiple healthcare tools</h2>
+      </div>
+      <div class="grid four">
+        <article class="mini-card">
+          <h3>Disease Predictor</h3>
+          <p>Symptom-based prediction area for your model response.</p>
+        </article>
+        <article class="mini-card">
+          <h3>Skin Predictor</h3>
+          <p>Upload image UI ready for CNN or other image model.</p>
+        </article>
+        <article class="mini-card">
+          <h3>AI Chatbot</h3>
+          <p>Chat window with send/receive structure for future API integration.</p>
+        </article>
+        <article class="mini-card">
+          <h3>Doctor Booking</h3>
+          <p>Form and confirmation flow ready for meeting + email API.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="disease">
+      <div class="section-head">
+        <p class="section-label">Module 1</p>
+        <h2>Disease Predictor</h2>
+      </div>
+      <div class="card">
+        <p class="card-note">Choose symptoms from model-supported dropdown and run prediction.</p>
+
+        <div class="row">
+          <select id="symptomDropdown" class="input"></select>
+          <button id="addSymptomBtn" class="ghost-btn" type="button">Add Symptom</button>
+          <button id="predictBtn" class="primary-btn" type="button">Predict</button>
+          <button id="clearSymptomsBtn" class="ghost-btn" type="button">Clear</button>
+        </div>
+
+        <div class="symptom-wrap" id="selectedSymptomsContainer"></div>
+
+        <div class="result" id="diseaseResult">
+          <h3>Prediction output will appear here</h3>
+          <p>Integration point: connect this section to your disease prediction API/model.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid two">
+        <div id="skin">
+          <div class="section-head compact">
+            <p class="section-label">Module 2</p>
+            <h2>Skin Disease Predictor</h2>
+          </div>
+          <div class="card">
+            <label class="upload" for="skinFileInput">
+              <span>Click to upload a skin image (JPG/PNG)</span>
+              <small>Image preview and result area are ready for model integration.</small>
+            </label>
+            <input id="skinFileInput" type="file" accept="image/*" />
+            <div class="preview-area" id="previewArea">No image selected</div>
+            <div class="result" id="skinResult">
+              <h3>Skin analysis output will appear here</h3>
+              <p>Integration point: connect your skin model API response in this box.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="chatbot">
+          <div class="section-head compact">
+            <p class="section-label">Module 3</p>
+            <h2>Integrated Chatbot</h2>
+          </div>
+          <div class="card">
+            <div class="chat-box" id="chatBox">
+              <div class="bubble bot">Hello, I am Med Predict assistant. Tell me your symptoms.</div>
+            </div>
+            <div class="row">
+              <input id="chatInput" type="text" class="input" placeholder="Type your message..." />
+              <button id="sendChatBtn" class="primary-btn" type="button">Send</button>
+              <button id="newChatBtn" class="ghost-btn" type="button">New Chat</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="booking">
+      <div class="section-head">
+        <p class="section-label">Module 4</p>
+        <h2>Book Doctor Consultation</h2>
+      </div>
+      <div class="card booking-layout">
+        <div class="booking-column">
+          <h3 class="booking-title">Schedule Directly (Calendly)</h3>
+          <p class="small-text">Choose slot directly from the embedded scheduler.</p>
+          <iframe
+            class="calendly-embed"
+            src="https://calendly.com/ranaakshatyt45?hide_event_type_details=1&hide_gdpr_banner=1"
+            title="Calendly Scheduler"
+            loading="lazy"
+          ></iframe>
+          <p class="small-text" style="margin-top:8px;">
+            If embed does not load, open:
+            <a href="https://calendly.com/ranaakshatyt45" target="_blank" rel="noopener noreferrer">calendly.com/ranaakshatyt45</a>
+          </p>
+        </div>
+
+        <div class="booking-column">
+          <h3 class="booking-title">Internal Booking Form (Optional)</h3>
+          <form id="bookingForm">
+            <div class="grid two">
+              <label>
+                Full Name
+                <input type="text" id="fullName" class="input" required />
+              </label>
+              <label>
+                Email
+                <input type="email" id="email" class="input" required />
+              </label>
+              <label>
+                Date
+                <input type="date" id="date" class="input" required />
+              </label>
+              <label>
+                Time
+                <input type="time" id="time" class="input" required />
+              </label>
+              <label>
+                Department
+                <select id="department" class="input" required>
+                  <option value="">Select department</option>
+                  <option>General Physician</option>
+                  <option>Dermatology</option>
+                  <option>Cardiology</option>
+                  <option>Pulmonology</option>
+                  <option>Neurology</option>
+                </select>
+              </label>
+              <label>
+                Concern
+                <input type="text" id="concern" class="input" placeholder="e.g. recurring fever" required />
+              </label>
+            </div>
+            <button class="primary-btn full" type="submit">Book Appointment</button>
+          </form>
+
+          <div class="result hidden" id="bookingResult">
+            <h3>Appointment request submitted</h3>
+            <p>
+              Next step: connect backend mail API here to send direct email confirmation and meeting link.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Med Predict | Frontend Prototype</p>
+    <p class="small-text">This tool is for educational/demo use and is not a final medical diagnosis.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
